@@ -1,43 +1,43 @@
-import StatCard from "../StatCard";
-import { n, negativeImpact, limitsYes } from "../../data/stats";
+import { n, negativeImpact, limitsYes, oftenUsers } from "../../data/stats";
 
 export default function Hero() {
-  return (
-    <section id="hero" className="section" style={{
-      background: "linear-gradient(135deg, #0d1117 0%, #161b22 50%, #0d1117 100%)",
-      position: "relative", overflow: "hidden",
-    }}>
-      <div style={{ position: "absolute", inset: 0, overflow: "hidden", pointerEvents: "none" }}>
-        {[...Array(20)].map((_, i) => (
-          <div key={i} style={{
-            position: "absolute",
-            left: `${(i * 47 + 11) % 100}%`,
-            top: `${(i * 37 + 7) % 100}%`,
-            width: i % 3 === 0 ? 3 : 2,
-            height: i % 3 === 0 ? 3 : 2,
-            borderRadius: "50%",
-            background: "#7ee8a2",
-            opacity: 0.15 + (i % 5) * 0.06,
-          }} />
-        ))}
-      </div>
-      <div className="container" style={{ textAlign: "center", animation: "fadeInUp 0.8s ease both" }}>
-        <h1 style={{
-          fontSize: "clamp(32px, 6vw, 64px)", fontWeight: 700, lineHeight: 1.1,
-          margin: "0 0 20px", letterSpacing: "-1.5px",
-          background: "linear-gradient(135deg, #e6edf3 0%, #b37ec4 50%, #7fb1eb 100%)",
-          backgroundSize: "200% 200%",
-          WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent",
-          animation: "gradMove 5s ease infinite",
-        }}>
-          Wpływ sztucznej inteligencji<br />na rozwój społeczeństwa
-        </h1>
-        <div style={{ display: "flex", gap: 16, justifyContent: "center", flexWrap: "wrap", marginTop: 120 }}>
-          <StatCard number={n} label="ankietowanych" />
-          <StatCard number={`${Math.round((negativeImpact / n) * 100)}%`} label="widzi negatywny wpływ" />
-          <StatCard number={`${Math.round((limitsYes / n) * 100)}%`} label="uważa, że AI ogranicza myślenie" />
-        </div>
-      </div>
-    </section>
-  );
+    return (
+        <section id="hero" className="section hero">
+            <div className="container">
+                <div className="hero__meta">
+                    <div><span>Raport</span>№ 01 / 2026</div>
+                    <div><span>Zakres</span>Rzeszów · 7 IV 2026</div>
+                    <div><span>Próba</span>{n} respondentów</div>
+                    <div><span>Temat</span>AI a społeczeństwo</div>
+                </div>
+
+                <h1 className="hero__title">
+                    <span className="hero__title-line"><span>Sztuczna&nbsp;</span></span>
+                    <span className="hero__title-line"><span>inteligencja</span></span>
+                    <span className="hero__title-line"><span><em>a człowiek.</em></span></span>
+                </h1>
+
+                <div className="hero__bottom">
+                    <div className="hero__stats">
+                        <div className="hero__stat">
+                            <div className="hero__stat-num">{Math.round((oftenUsers / n) * 100)}<small style={{ fontSize: "0.5em" }}>%</small></div>
+                            <div className="hero__stat-label">korzysta z AI często</div>
+                        </div>
+                        <div className="hero__stat">
+                            <div className="hero__stat-num accent">{Math.round((negativeImpact / n) * 100)}<small style={{ fontSize: "0.5em" }}>%</small></div>
+                            <div className="hero__stat-label">widzi negatywny wpływ na przyszłość</div>
+                        </div>
+                        <div className="hero__stat">
+                            <div className="hero__stat-num">{Math.round((limitsYes / n) * 100)}<small style={{ fontSize: "0.5em" }}>%</small></div>
+                            <div className="hero__stat-label">uważa, że AI ogranicza myślenie</div>
+                        </div>
+                    </div>
+                    <div className="hero__byline">
+                        Edukacja Obywatelska<br />
+                        rok szk. 2025/2026
+                    </div>
+                </div>
+            </div>
+        </section>
+    );
 }
