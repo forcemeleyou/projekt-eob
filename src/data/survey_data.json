@@ -1,199 +1,1307 @@
 [
-  { "age": "15–18",
-   "gender": "kobieta",
-    "usesAI": "czasami",
-    "helpsHuman": "zdecydowanie nie",
-    "areas": ["Nauka i szkoła"],
-    "limitsThinking": "tak",
-    "afraid": "tak",
-    "replacesWork": "Tak",
-    "futureImpact": "raczej negatywny" },
-
-  { "age": "15–18",
-   "gender": "kobieta",
-   "usesAI": "czasami",
-   "helpsHuman": "raczej tak",
-   "areas": ["Nauka i szkoła", "Codzienne życie", "Rozrywka i kreatywność"],
-   "limitsThinking": "tak",
-   "afraid": "trochę",
-   "replacesWork": "Częściowo",
-   "futureImpact": "neutralny" },
-
-  { "age": "15–18",
-    "gender": "kobieta",
-     "usesAI": "czasami",
-     "helpsHuman": "nie mam zdania",
-     "areas": ["Nauka i szkoła"],
-     "limitsThinking": "tak",
-     "afraid": "tak",
-     "replacesWork": "tak",
-     "futureImpact": "raczej negatywny" },
-  { "age": "15–18", "gender": "mężczyzna", "usesAI": "rzadko", "helpsHuman": "raczej nie", "areas": ["Technologia i praca", "Biznes i ekonomia"], "limitsThinking": "tak", "afraid": "tak", "replacesWork": "nie", "futureImpact": "bardzo negatywny" },
-  { "age": "15–18", "gender": "kobieta", "usesAI": "czasami", "helpsHuman": "raczej tak", "areas": ["Nauka i szkoła", "Codzienne życie"], "limitsThinking": "tak", "afraid": "tak", "replacesWork": "tak", "futureImpact": "raczej negatywny" },
-  { "age": "15–18", "gender": "kobieta", "usesAI": "tak, często", "helpsHuman": "raczej tak", "areas": ["Nauka i szkoła", "Codzienne życie"], "limitsThinking": "tak", "afraid": "nie", "replacesWork": "częściowo", "futureImpact": "neutralny" },
-  { "age": "15–18", "gender": "kobieta", "usesAI": "tak, często", "helpsHuman": "raczej tak", "areas": ["Nauka i szkoła", "Codzienne życie"], "limitsThinking": "nie", "afraid": "nie", "replacesWork": "częściowo", "futureImpact": "neutralny" },
-  { "age": "15–18", "gender": "kobieta", "usesAI": "rzadko", "helpsHuman": "nie mam zdania", "areas": ["Nauka i szkoła", "Rozrywka i kreatywność"], "limitsThinking": "tak", "afraid": "trochę", "replacesWork": "częściowo", "futureImpact": "neutralny" },
-  { "age": "15–18", "gender": "kobieta", "usesAI": "rzadko", "helpsHuman": "zdecydowanie nie", "areas": ["Codzienne życie"], "limitsThinking": "tak", "afraid": "tak", "replacesWork": "częściowo", "futureImpact": "bardzo negatywny" },
-  { "age": "15–18", "gender": "mężczyzna", "usesAI": "tak, często", "helpsHuman": "raczej nie", "areas": ["Nauka i szkoła", "Rozrywka i kreatywność"], "limitsThinking": "tak", "afraid": "tak", "replacesWork": "częściowo", "futureImpact": "bardzo negatywny" },
-  { "age": "15–18", "gender": "kobieta", "usesAI": "czasami", "helpsHuman": "nie mam zdania", "areas": ["Nauka i szkoła"], "limitsThinking": "tak", "afraid": "nie", "replacesWork": "częściowo", "futureImpact": "neutralny" },
-  { "age": "15–18", "gender": "kobieta", "usesAI": "tak, często", "helpsHuman": "zdecydowanie tak", "areas": ["Nauka i szkoła"], "limitsThinking": "trudno powiedzieć", "afraid": "trochę", "replacesWork": "nie", "futureImpact": "neutralny" },
-  { "age": "15–18", "gender": "kobieta", "usesAI": "czasami", "helpsHuman": "raczej nie", "areas": ["Rozrywka i kreatywność"], "limitsThinking": "tak", "afraid": "tak", "replacesWork": "tak", "futureImpact": "raczej negatywny" },
-  { "age": "19–25", "gender": "mężczyzna", "usesAI": "czasami", "helpsHuman": "raczej nie", "areas": ["Nauka i szkoła", "Technologia i praca", "Rozrywka i kreatywność"], "limitsThinking": "tak", "afraid": "tak", "replacesWork": "częściowo", "futureImpact": "raczej negatywny" },
-  { "age": "15–18", "gender": "kobieta", "usesAI": "tak, często", "helpsHuman": "raczej tak", "areas": ["Nauka i szkoła", "Codzienne życie", "Rozrywka i kreatywność"], "limitsThinking": "tak", "afraid": "nie", "replacesWork": "częściowo", "futureImpact": "neutralny" },
-  { "age": "15–18", "gender": "mężczyzna", "usesAI": "rzadko", "helpsHuman": "nie mam zdania", "areas": ["Technologia i praca"], "limitsThinking": "tak", "afraid": "tak", "replacesWork": "częściowo", "futureImpact": "raczej negatywny" },
-  { "age": "15–18", "gender": "kobieta", "usesAI": "tak, często", "helpsHuman": "raczej nie", "areas": ["Nauka i szkoła"], "limitsThinking": "tak", "afraid": "nie", "replacesWork": "częściowo", "futureImpact": "raczej pozytywny" },
-  { "age": "15–18", "gender": "kobieta", "usesAI": "czasami", "helpsHuman": "raczej nie", "areas": ["Nauka i szkoła", "Rozrywka i kreatywność", "Transport"], "limitsThinking": "tak", "afraid": "tak", "replacesWork": "częściowo", "futureImpact": "raczej negatywny" },
-  { "age": "15–18", "gender": "kobieta", "usesAI": "tak, często", "helpsHuman": "raczej nie", "areas": ["Nauka i szkoła", "Rozrywka i kreatywność"], "limitsThinking": "tak", "afraid": "tak", "replacesWork": "tak", "futureImpact": "bardzo negatywny" },
-  { "age": "15–18", "gender": "kobieta", "usesAI": "tak, często", "helpsHuman": "zdecydowanie tak", "areas": ["Nauka i szkoła", "Codzienne życie", "Medycyna", "Transport"], "limitsThinking": "tak", "afraid": "tak", "replacesWork": "tak", "futureImpact": "raczej negatywny" },
-  { "age": "15–18", "gender": "kobieta", "usesAI": "tak, często", "helpsHuman": "raczej tak", "areas": ["Nauka i szkoła", "Codzienne życie", "Medycyna", "Transport"], "limitsThinking": "tak", "afraid": "trochę", "replacesWork": "częściowo", "futureImpact": "neutralny" },
-  { "age": "15–18", "gender": "kobieta", "usesAI": "tak, często", "helpsHuman": "raczej nie", "areas": ["Nauka i szkoła", "Rozrywka i kreatywność"], "limitsThinking": "tak", "afraid": "tak", "replacesWork": "częściowo", "futureImpact": "raczej negatywny" },
-  { "age": "15–18", "gender": "kobieta", "usesAI": "czasami", "helpsHuman": "raczej tak", "areas": ["Nauka i szkoła", "Biznes i ekonomia", "Transport"], "limitsThinking": "tak", "afraid": "tak", "replacesWork": "częściowo", "futureImpact": "neutralny" },
-  { "age": "15–18", "gender": "kobieta", "usesAI": "czasami", "helpsHuman": "raczej nie", "areas": ["Codzienne życie"], "limitsThinking": "tak", "afraid": "trochę", "replacesWork": "częściowo", "futureImpact": "bardzo negatywny" },
-  { "age": "15–18", "gender": "wolę nie podawać", "usesAI": "czasami", "helpsHuman": "raczej tak", "areas": ["Nauka i szkoła", "Technologia i praca", "Codzienne życie"], "limitsThinking": "trudno powiedzieć", "afraid": "trochę", "replacesWork": "tak", "futureImpact": "neutralny" },
-  { "age": "15–18", "gender": "kobieta", "usesAI": "tak, często", "helpsHuman": "raczej tak", "areas": ["Nauka i szkoła"], "limitsThinking": "tak", "afraid": "nie", "replacesWork": "częściowo", "futureImpact": "raczej pozytywny" },
-  { "age": "15–18", "gender": "kobieta", "usesAI": "czasami", "helpsHuman": "raczej tak", "areas": ["Technologia i praca", "Codzienne życie", "Medycyna"], "limitsThinking": "tak", "afraid": "tak", "replacesWork": "częściowo", "futureImpact": "raczej negatywny" },
-  { "age": "40+", "gender": "mężczyzna", "usesAI": "nie", "helpsHuman": "raczej nie", "areas": ["Technologia i praca", "Rozrywka i kreatywność"], "limitsThinking": "tak", "afraid": "tak", "replacesWork": "tak", "futureImpact": "raczej negatywny" },
-  { "age": "40+", "gender": "kobieta", "usesAI": "czasami", "helpsHuman": "raczej tak", "areas": ["Nauka i szkoła", "Technologia i praca", "Medycyna", "Rozrywka i kreatywność", "Biznes i ekonomia"], "limitsThinking": "tak", "afraid": "trochę", "replacesWork": "częściowo", "futureImpact": "raczej pozytywny" },
-  { "age": "15–18", "gender": "kobieta", "usesAI": "tak, często", "helpsHuman": "zdecydowanie tak", "areas": ["Nauka i szkoła", "Technologia i praca", "Codzienne życie", "Medycyna", "Rozrywka i kreatywność", "Biznes i ekonomia", "Transport"], "limitsThinking": "nie", "afraid": "tak", "replacesWork": "tak", "futureImpact": "raczej pozytywny" },
-  { "age": "19–25", "gender": "mężczyzna", "usesAI": "rzadko", "helpsHuman": "raczej nie", "areas": ["Technologia i praca", "Rozrywka i kreatywność"], "limitsThinking": "tak", "afraid": "trochę", "replacesWork": "częściowo", "futureImpact": "neutralny" },
-  { "age": "40+", "gender": "kobieta", "usesAI": "czasami", "helpsHuman": "raczej tak", "areas": ["Nauka i szkoła", "Technologia i praca", "Medycyna", "Biznes i ekonomia"], "limitsThinking": "tak", "afraid": "trochę", "replacesWork": "częściowo", "futureImpact": "raczej pozytywny" },
-  { "age": "15–18", "gender": "kobieta", "usesAI": "tak, często", "helpsHuman": "raczej nie", "areas": ["Nauka i szkoła", "Codzienne życie", "Rozrywka i kreatywność"], "limitsThinking": "tak", "afraid": "trochę", "replacesWork": "częściowo", "futureImpact": "neutralny" },
-  { "age": "poniżej 15", "gender": "mężczyzna", "usesAI": "tak, często", "helpsHuman": "raczej nie", "areas": ["Nauka i szkoła", "Codzienne życie"], "limitsThinking": "tak", "afraid": "tak", "replacesWork": "tak", "futureImpact": "raczej negatywny" },
-  { "age": "26–40", "gender": "kobieta", "usesAI": "tak, często", "helpsHuman": "zdecydowanie tak", "areas": ["Nauka i szkoła", "Technologia i praca", "Codzienne życie", "Rozrywka i kreatywność", "Biznes i ekonomia", "Transport"], "limitsThinking": "trudno powiedzieć", "afraid": "nie", "replacesWork": "tak", "futureImpact": "neutralny" },
-  { "age": "40+", "gender": "kobieta", "usesAI": "czasami", "helpsHuman": "raczej tak", "areas": ["Technologia i praca", "Codzienne życie"], "limitsThinking": "tak", "afraid": "trochę", "replacesWork": "częściowo", "futureImpact": "raczej negatywny" },
-  { "age": "15–18", "gender": "mężczyzna", "usesAI": "tak, często", "helpsHuman": "raczej nie", "areas": ["Nauka i szkoła", "Technologia i praca", "Codzienne życie"], "limitsThinking": "tak", "afraid": "trochę", "replacesWork": "częściowo", "futureImpact": "raczej negatywny" },
-  { "age": "15–18", "gender": "kobieta", "usesAI": "rzadko", "helpsHuman": "zdecydowanie nie", "areas": ["Nauka i szkoła", "Technologia i praca", "Medycyna", "Rozrywka i kreatywność", "Biznes i ekonomia"], "limitsThinking": "tak", "afraid": "tak", "replacesWork": "tak", "futureImpact": "bardzo negatywny" },
-  { "age": "15–18", "gender": "kobieta", "usesAI": "czasami", "helpsHuman": "raczej tak", "areas": ["Nauka i szkoła", "Codzienne życie", "Rozrywka i kreatywność"], "limitsThinking": "tak", "afraid": "nie", "replacesWork": "częściowo", "futureImpact": "raczej pozytywny" },
-  { "age": "15–18", "gender": "kobieta", "usesAI": "tak, często", "helpsHuman": "raczej tak", "areas": ["Nauka i szkoła"], "limitsThinking": "tak", "afraid": "tak", "replacesWork": "tak", "futureImpact": "bardzo negatywny" },
-  { "age": "15–18", "gender": "kobieta", "usesAI": "tak, często", "helpsHuman": "raczej tak", "areas": ["Nauka i szkoła", "Codzienne życie"], "limitsThinking": "tak", "afraid": "trudno powiedzieć", "replacesWork": "tak", "futureImpact": "neutralny" },
-  { "age": "poniżej 15", "gender": "kobieta", "usesAI": "rzadko", "helpsHuman": "raczej tak", "areas": ["Nauka i szkoła"], "limitsThinking": "tak", "afraid": "trochę", "replacesWork": "częściowo", "futureImpact": "raczej pozytywny" },
-  { "age": "40+", "gender": "mężczyzna", "usesAI": "rzadko", "helpsHuman": "zdecydowanie nie", "areas": ["Technologia i praca", "Biznes i ekonomia"], "limitsThinking": "tak", "afraid": "nie", "replacesWork": "nie", "futureImpact": "raczej pozytywny" },
-  { "age": "40+", "gender": "mężczyzna", "usesAI": "nie", "helpsHuman": "nie mam zdania", "areas": ["Nie wiem"], "limitsThinking": "tak", "afraid": "trudno powiedzieć", "replacesWork": "nie", "futureImpact": "neutralny" },
-  { "age": "26–40", "gender": "kobieta", "usesAI": "rzadko", "helpsHuman": "raczej tak", "areas": ["Technologia i praca", "Biznes i ekonomia"], "limitsThinking": "tak", "afraid": "tak", "replacesWork": "częściowo", "futureImpact": "raczej negatywny" },
-  { "age": "26–40", "gender": "kobieta", "usesAI": "tak, często", "helpsHuman": "raczej nie", "areas": ["Nauka i szkoła"], "limitsThinking": "tak", "afraid": "trochę", "replacesWork": "częściowo", "futureImpact": "neutralny" },
-  { "age": "40+", "gender": "kobieta", "usesAI": "czasami", "helpsHuman": "raczej tak", "areas": ["Nauka i szkoła", "Codzienne życie", "Transport"], "limitsThinking": "tak", "afraid": "trochę", "replacesWork": "tak", "futureImpact": "neutralny" },
-  { "age": "26–40", "gender": "kobieta", "usesAI": "tak, często", "helpsHuman": "zdecydowanie tak", "areas": ["Nauka i szkoła", "Technologia i praca", "Codzienne życie", "Medycyna", "Rozrywka i kreatywność", "Transport"], "limitsThinking": "trudno powiedzieć", "afraid": "trudno powiedzieć", "replacesWork": "częściowo", "futureImpact": "raczej pozytywny" },
-  { "age": "40+", "gender": "mężczyzna", "usesAI": "tak, często", "helpsHuman": "nie mam zdania", "areas": ["Nauka i szkoła"], "limitsThinking": "nie", "afraid": "nie", "replacesWork": "nie", "futureImpact": "neutralny" },
-  { "age": "26–40", "gender": "mężczyzna", "usesAI": "tak, często", "helpsHuman": "nie mam zdania", "areas": ["Nauka i szkoła"], "limitsThinking": "nie", "afraid": "nie", "replacesWork": "częściowo", "futureImpact": "neutralny" },
-  { "age": "19–25", "gender": "kobieta", "usesAI": "tak, często", "helpsHuman": "nie mam zdania", "areas": ["Nauka i szkoła", "Technologia i praca", "Rozrywka i kreatywność"], "limitsThinking": "tak", "afraid": "nie", "replacesWork": "nie", "futureImpact": "raczej negatywny" },
-  { "age": "poniżej 15", "gender": "kobieta", "usesAI": "czasami", "helpsHuman": "raczej nie", "areas": ["Biznes i ekonomia"], "limitsThinking": "nie", "afraid": "trudno powiedzieć", "replacesWork": "częściowo", "futureImpact": "bardzo pozytywny" },
-  { "age": "15–18", "gender": "wolę nie podawać", "usesAI": "nie", "helpsHuman": "zdecydowanie nie", "areas": ["Codzienne życie"], "limitsThinking": "tak", "afraid": "tak", "replacesWork": "tak", "futureImpact": "bardzo negatywny" },
-  { "age": "40+", "gender": "kobieta", "usesAI": "czasami", "helpsHuman": "raczej nie", "areas": ["Transport"], "limitsThinking": "tak", "afraid": "tak", "replacesWork": "nie", "futureImpact": "neutralny" },
-  { "age": "26–40", "gender": "mężczyzna", "usesAI": "tak, często", "helpsHuman": "raczej nie", "areas": ["Nauka i szkoła", "Technologia i praca", "Codzienne życie"], "limitsThinking": "tak", "afraid": "trochę", "replacesWork": "nie", "futureImpact": "bardzo pozytywny" },
-  { "age": "40+", "gender": "kobieta", "usesAI": "nie", "helpsHuman": "nie mam zdania", "areas": ["Codzienne życie"], "limitsThinking": "tak", "afraid": "tak", "replacesWork": "tak", "futureImpact": "bardzo negatywny" },
-  { "age": "19–25", "gender": "kobieta", "usesAI": "tak, często", "helpsHuman": "raczej tak", "areas": ["Nauka i szkoła"], "limitsThinking": "tak", "afraid": "trochę", "replacesWork": "częściowo", "futureImpact": "raczej pozytywny" },
-  { "age": "26–40", "gender": "mężczyzna", "usesAI": "tak, często", "helpsHuman": "zdecydowanie tak", "areas": ["Nauka i szkoła", "Transport"], "limitsThinking": "tak", "afraid": "tak", "replacesWork": "tak", "futureImpact": "neutralny" },
-  { "age": "40+", "gender": "mężczyzna", "usesAI": "czasami", "helpsHuman": "raczej nie", "areas": ["Nauka i szkoła", "Technologia i praca", "Medycyna"], "limitsThinking": "trudno powiedzieć", "afraid": "trochę", "replacesWork": "częściowo", "futureImpact": "neutralny" },
-  { "age": "60+", "gender": "mężczyzna", "usesAI": "nie", "helpsHuman": "raczej tak", "areas": ["Nauka i szkoła"], "limitsThinking": "nie", "afraid": "tak", "replacesWork": "tak", "futureImpact": "raczej negatywny" },
-  { "age": "40+", "gender": "mężczyzna", "usesAI": "tak, często", "helpsHuman": "nie mam zdania", "areas": ["Technologia i praca", "Rozrywka i kreatywność"], "limitsThinking": "tak", "afraid": "trochę", "replacesWork": "częściowo", "futureImpact": "raczej pozytywny" },
-  { "age": "40+", "gender": "kobieta", "usesAI": "rzadko", "helpsHuman": "nie mam zdania", "areas": ["Nauka i szkoła"], "limitsThinking": "trudno powiedzieć", "afraid": "trudno powiedzieć", "replacesWork": "częściowo", "futureImpact": "raczej negatywny" },
-  { "age": "19–25", "gender": "mężczyzna", "usesAI": "tak, często", "helpsHuman": "raczej tak", "areas": ["Nauka i szkoła", "Technologia i praca", "Rozrywka i kreatywność", "Biznes i ekonomia"], "limitsThinking": "tak", "afraid": "trochę", "replacesWork": "częściowo", "futureImpact": "raczej negatywny" },
-  { "age": "26–40", "gender": "mężczyzna", "usesAI": "czasami", "helpsHuman": "nie mam zdania", "areas": ["Nauka i szkoła"], "limitsThinking": "nie", "afraid": "tak", "replacesWork": "tak", "futureImpact": "neutralny" },
-  { "age": "40+", "gender": "mężczyzna", "usesAI": "czasami", "helpsHuman": "nie mam zdania", "areas": ["Technologia i praca", "Transport"], "limitsThinking": "nie", "afraid": "trochę", "replacesWork": "częściowo", "futureImpact": "neutralny" },
-  { "age": "15–18", "gender": "kobieta", "usesAI": "nie", "helpsHuman": "raczej nie", "areas": ["Nauka i szkoła"], "limitsThinking": "tak", "afraid": "trochę", "replacesWork": "tak", "futureImpact": "raczej negatywny" },
-  { "age": "15–18", "gender": "kobieta", "usesAI": "rzadko", "helpsHuman": "zdecydowanie nie", "areas": ["Nauka i szkoła", "Biznes i ekonomia"], "limitsThinking": "tak", "afraid": "trudno powiedzieć", "replacesWork": "częściowo", "futureImpact": "bardzo negatywny" },
-  { "age": "40+", "gender": "mężczyzna", "usesAI": "tak, często", "helpsHuman": "zdecydowanie tak", "areas": ["Technologia i praca", "Codzienne życie"], "limitsThinking": "tak", "afraid": "trochę", "replacesWork": "częściowo", "futureImpact": "raczej pozytywny" },
-  { "age": "26–40", "gender": "mężczyzna", "usesAI": "czasami", "helpsHuman": "zdecydowanie tak", "areas": ["Technologia i praca"], "limitsThinking": "trudno powiedzieć", "afraid": "nie", "replacesWork": "trudno powiedzieć", "futureImpact": "neutralny" },
-  { "age": "poniżej 15", "gender": "kobieta", "usesAI": "nie", "helpsHuman": "raczej nie", "areas": ["Nauka i szkoła", "Medycyna"], "limitsThinking": "trudno powiedzieć", "afraid": "trochę", "replacesWork": "częściowo", "futureImpact": "raczej negatywny" },
-  { "age": "26–40", "gender": "mężczyzna", "usesAI": "tak, często", "helpsHuman": "raczej nie", "areas": ["Nauka i szkoła", "Technologia i praca", "Rozrywka i kreatywność", "Biznes i ekonomia"], "limitsThinking": "tak", "afraid": "nie", "replacesWork": "częściowo", "futureImpact": "raczej pozytywny" },
-  { "age": "60+", "gender": "mężczyzna", "usesAI": "nie", "helpsHuman": "raczej tak", "areas": ["Technologia i praca"], "limitsThinking": "tak", "afraid": "tak", "replacesWork": "tak", "futureImpact": "raczej pozytywny" },
-  { "age": "26–40", "gender": "mężczyzna", "usesAI": "tak, często", "helpsHuman": "raczej tak", "areas": ["Nauka i szkoła", "Technologia i praca", "Codzienne życie", "Biznes i ekonomia"], "limitsThinking": "tak", "afraid": "nie", "replacesWork": "częściowo", "futureImpact": "raczej pozytywny" },
-  { "age": "60+", "gender": "kobieta", "usesAI": "nie", "helpsHuman": "raczej tak", "areas": ["Nauka i szkoła"], "limitsThinking": "trudno powiedzieć", "afraid": "trudno powiedzieć", "replacesWork": "tak", "futureImpact": "raczej negatywny" },
-  { "age": "26–40", "gender": "mężczyzna", "usesAI": "tak, często", "helpsHuman": "zdecydowanie tak", "areas": ["Technologia i praca", "Rozrywka i kreatywność", "Biznes i ekonomia"], "limitsThinking": "tak", "afraid": "trochę", "replacesWork": "częściowo", "futureImpact": "raczej pozytywny" },
-  { "age": "19–25", "gender": "mężczyzna", "usesAI": "rzadko", "helpsHuman": "raczej nie", "areas": ["Biznes i ekonomia"], "limitsThinking": "tak", "afraid": "tak", "replacesWork": "tak", "futureImpact": "bardzo negatywny" },
-  { "age": "15–18", "gender": "kobieta", "usesAI": "rzadko", "helpsHuman": "raczej nie", "areas": ["Biznes i ekonomia"], "limitsThinking": "tak", "afraid": "tak", "replacesWork": "tak", "futureImpact": "raczej negatywny" },
-  { "age": "15–18", "gender": "mężczyzna", "usesAI": "rzadko", "helpsHuman": "raczej nie", "areas": ["Nauka i szkoła"], "limitsThinking": "nie", "afraid": "nie", "replacesWork": "nie", "futureImpact": "raczej negatywny" },
-  { "age": "15–18", "gender": "mężczyzna", "usesAI": "tak, często", "helpsHuman": "zdecydowanie nie", "areas": ["Nauka i szkoła", "Technologia i praca", "Codzienne życie"], "limitsThinking": "tak", "afraid": "tak", "replacesWork": "tak", "futureImpact": "bardzo negatywny" },
-  { "age": "poniżej 15", "gender": "mężczyzna", "usesAI": "czasami", "helpsHuman": "raczej tak", "areas": ["Nauka i szkoła"], "limitsThinking": "trudno powiedzieć", "afraid": "trochę", "replacesWork": "częściowo", "futureImpact": "raczej pozytywny" },
-  { "age": "15–18", "gender": "mężczyzna", "usesAI": "czasami", "helpsHuman": "nie mam zdania", "areas": ["Nauka i szkoła", "Technologia i praca", "Rozrywka i kreatywność", "Biznes i ekonomia"], "limitsThinking": "tak", "afraid": "trochę", "replacesWork": "częściowo", "futureImpact": "neutralny" },
-  { "age": "40+", "gender": "kobieta", "usesAI": "nie", "helpsHuman": "raczej nie", "areas": ["Medycyna", "Transport"], "limitsThinking": "tak", "afraid": "tak", "replacesWork": "trudno powiedzieć", "futureImpact": "raczej negatywny" },
-  { "age": "15–18", "gender": "mężczyzna", "usesAI": "tak, często", "helpsHuman": "zdecydowanie nie", "areas": ["Nauka i szkoła"], "limitsThinking": "tak", "afraid": "tak", "replacesWork": "częściowo", "futureImpact": "raczej negatywny" },
-  {
-    "age": "15–18",
-    "gender": "kobieta",
-    "usesAI": "czasami",
-    "helpsHuman": "raczej tak",
-    "areas": ["Nauka i szkoła", "Technologia i praca", "Codzienne życie", "Rozrywka i kreatywność", "Transport"],
-    "limitsThinking": "tak",
-    "afraid": "tak",
-    "replacesWork": "częściowo",
-    "futureImpact": "raczej negatywny"
-  },
-  {
-    "age": "15–18",
-    "gender": "wolę nie podawać",
-    "usesAI": "czasami",
-    "helpsHuman": "raczej nie",
-    "areas": ["Rozrywka i kreatywność"],
-    "limitsThinking": "trudno powiedzieć",
-    "afraid": "tak",
-    "replacesWork": "częściowo",
-    "futureImpact": "raczej negatywny"
-  },
-  {
-    "age": "15–18",
-    "gender": "mężczyzna",
-    "usesAI": "tak, często",
-    "helpsHuman": "zdecydowanie tak",
-    "areas": ["Nauka i szkoła", "Technologia i praca", "Codzienne życie", "Biznes i ekonomia"],
-    "limitsThinking": "tak",
-    "afraid": "nie",
-    "replacesWork": "częściowo",
-    "futureImpact": "neutralny"
-  },
-  {
-    "age": "15–18",
-    "gender": "mężczyzna",
-    "usesAI": "tak, często",
-    "helpsHuman": "zdecydowanie nie",
-    "areas": ["Nauka i szkoła", "Technologia i praca", "Codzienne życie", "Rozrywka i kreatywność", "Biznes i ekonomia"],
-    "limitsThinking": "tak",
-    "afraid": "trochę",
-    "replacesWork": "nie",
-    "futureImpact": "raczej negatywny"
-  },
-  {
-    "age": "15–18",
-    "gender": "mężczyzna",
-    "usesAI": "tak, często",
-    "helpsHuman": "raczej tak",
-    "areas": ["Nauka i szkoła", "Technologia i praca", "Codzienne życie", "Medycyna", "Biznes i ekonomia"],
-    "limitsThinking": "nie",
-    "afraid": "nie",
-    "replacesWork": "nie",
-    "futureImpact": "neutralny"
-  },
-  {
-    "age": "15–18",
-    "gender": "mężczyzna",
-    "usesAI": "tak, często",
-    "helpsHuman": "raczej tak",
-    "areas": ["Nauka i szkoła", "Technologia i praca", "Codzienne życie", "Medycyna", "Biznes i ekonomia"],
-    "limitsThinking": "tak",
-    "afraid": "trudno powiedzieć",
-    "replacesWork": "tak",
-    "futureImpact": "neutralny"
-  },
-  {
-    "age": "15–18",
-    "gender": "mężczyzna",
-    "usesAI": "tak, często",
-    "helpsHuman": "raczej tak",
-    "areas": ["Nauka i szkoła", "Technologia i praca", "Codzienne życie", "Rozrywka i kreatywność"],
-    "limitsThinking": "tak",
-    "afraid": "trudno powiedzieć",
-    "replacesWork": "częściowo",
-    "futureImpact": "neutralny"
-  },
-  {
-    "age": "15–18",
-    "gender": "mężczyzna",
-    "usesAI": "czasami",
-    "helpsHuman": "raczej nie",
-    "areas": ["Nauka i szkoła", "Rozrywka i kreatywność"],
-    "limitsThinking": "tak",
-    "afraid": "tak",
-    "replacesWork": "częściowo",
-    "futureImpact": "raczej negatywny"
-  }
+    {
+        "age": "15–18",
+        "gender": "kobieta",
+        "usesAI": "czasami",
+        "helpsHuman": "zdecydowanie nie",
+        "areas": [
+            "Nauka i szkoła"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "tak",
+        "replacesWork": "Tak",
+        "futureImpact": "raczej negatywny"
+    },
+    {
+        "age": "15–18",
+        "gender": "kobieta",
+        "usesAI": "czasami",
+        "helpsHuman": "raczej tak",
+        "areas": [
+            "Nauka i szkoła",
+            "Codzienne życie",
+            "Rozrywka i kreatywność"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "trochę",
+        "replacesWork": "Częściowo",
+        "futureImpact": "neutralny"
+    },
+    {
+        "age": "15–18",
+        "gender": "kobieta",
+        "usesAI": "czasami",
+        "helpsHuman": "nie mam zdania",
+        "areas": [
+            "Nauka i szkoła"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "tak",
+        "replacesWork": "tak",
+        "futureImpact": "raczej negatywny"
+    },
+    {
+        "age": "15–18",
+        "gender": "mężczyzna",
+        "usesAI": "rzadko",
+        "helpsHuman": "raczej nie",
+        "areas": [
+            "Technologia i praca",
+            "Biznes i ekonomia"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "tak",
+        "replacesWork": "nie",
+        "futureImpact": "bardzo negatywny"
+    },
+    {
+        "age": "15–18",
+        "gender": "kobieta",
+        "usesAI": "czasami",
+        "helpsHuman": "raczej tak",
+        "areas": [
+            "Nauka i szkoła",
+            "Codzienne życie"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "tak",
+        "replacesWork": "tak",
+        "futureImpact": "raczej negatywny"
+    },
+    {
+        "age": "15–18",
+        "gender": "kobieta",
+        "usesAI": "tak, często",
+        "helpsHuman": "raczej tak",
+        "areas": [
+            "Nauka i szkoła",
+            "Codzienne życie"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "nie",
+        "replacesWork": "częściowo",
+        "futureImpact": "neutralny"
+    },
+    {
+        "age": "15–18",
+        "gender": "kobieta",
+        "usesAI": "tak, często",
+        "helpsHuman": "raczej tak",
+        "areas": [
+            "Nauka i szkoła",
+            "Codzienne życie"
+        ],
+        "limitsThinking": "nie",
+        "afraid": "nie",
+        "replacesWork": "częściowo",
+        "futureImpact": "neutralny"
+    },
+    {
+        "age": "15–18",
+        "gender": "kobieta",
+        "usesAI": "rzadko",
+        "helpsHuman": "nie mam zdania",
+        "areas": [
+            "Nauka i szkoła",
+            "Rozrywka i kreatywność"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "trochę",
+        "replacesWork": "częściowo",
+        "futureImpact": "neutralny"
+    },
+    {
+        "age": "15–18",
+        "gender": "kobieta",
+        "usesAI": "rzadko",
+        "helpsHuman": "zdecydowanie nie",
+        "areas": [
+            "Codzienne życie"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "tak",
+        "replacesWork": "częściowo",
+        "futureImpact": "bardzo negatywny"
+    },
+    {
+        "age": "15–18",
+        "gender": "mężczyzna",
+        "usesAI": "tak, często",
+        "helpsHuman": "raczej nie",
+        "areas": [
+            "Nauka i szkoła",
+            "Rozrywka i kreatywność"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "tak",
+        "replacesWork": "częściowo",
+        "futureImpact": "bardzo negatywny"
+    },
+    {
+        "age": "15–18",
+        "gender": "kobieta",
+        "usesAI": "czasami",
+        "helpsHuman": "nie mam zdania",
+        "areas": [
+            "Nauka i szkoła"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "nie",
+        "replacesWork": "częściowo",
+        "futureImpact": "neutralny"
+    },
+    {
+        "age": "15–18",
+        "gender": "kobieta",
+        "usesAI": "tak, często",
+        "helpsHuman": "zdecydowanie tak",
+        "areas": [
+            "Nauka i szkoła"
+        ],
+        "limitsThinking": "trudno powiedzieć",
+        "afraid": "trochę",
+        "replacesWork": "nie",
+        "futureImpact": "neutralny"
+    },
+    {
+        "age": "15–18",
+        "gender": "kobieta",
+        "usesAI": "czasami",
+        "helpsHuman": "raczej nie",
+        "areas": [
+            "Rozrywka i kreatywność"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "tak",
+        "replacesWork": "tak",
+        "futureImpact": "raczej negatywny"
+    },
+    {
+        "age": "19–25",
+        "gender": "mężczyzna",
+        "usesAI": "czasami",
+        "helpsHuman": "raczej nie",
+        "areas": [
+            "Nauka i szkoła",
+            "Technologia i praca",
+            "Rozrywka i kreatywność"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "tak",
+        "replacesWork": "częściowo",
+        "futureImpact": "raczej negatywny"
+    },
+    {
+        "age": "15–18",
+        "gender": "kobieta",
+        "usesAI": "tak, często",
+        "helpsHuman": "raczej tak",
+        "areas": [
+            "Nauka i szkoła",
+            "Codzienne życie",
+            "Rozrywka i kreatywność"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "nie",
+        "replacesWork": "częściowo",
+        "futureImpact": "neutralny"
+    },
+    {
+        "age": "15–18",
+        "gender": "mężczyzna",
+        "usesAI": "rzadko",
+        "helpsHuman": "nie mam zdania",
+        "areas": [
+            "Technologia i praca"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "tak",
+        "replacesWork": "częściowo",
+        "futureImpact": "raczej negatywny"
+    },
+    {
+        "age": "15–18",
+        "gender": "kobieta",
+        "usesAI": "tak, często",
+        "helpsHuman": "raczej nie",
+        "areas": [
+            "Nauka i szkoła"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "nie",
+        "replacesWork": "częściowo",
+        "futureImpact": "raczej pozytywny"
+    },
+    {
+        "age": "15–18",
+        "gender": "kobieta",
+        "usesAI": "czasami",
+        "helpsHuman": "raczej nie",
+        "areas": [
+            "Nauka i szkoła",
+            "Rozrywka i kreatywność",
+            "Transport"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "tak",
+        "replacesWork": "częściowo",
+        "futureImpact": "raczej negatywny"
+    },
+    {
+        "age": "15–18",
+        "gender": "kobieta",
+        "usesAI": "tak, często",
+        "helpsHuman": "raczej nie",
+        "areas": [
+            "Nauka i szkoła",
+            "Rozrywka i kreatywność"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "tak",
+        "replacesWork": "tak",
+        "futureImpact": "bardzo negatywny"
+    },
+    {
+        "age": "15–18",
+        "gender": "kobieta",
+        "usesAI": "tak, często",
+        "helpsHuman": "zdecydowanie tak",
+        "areas": [
+            "Nauka i szkoła",
+            "Codzienne życie",
+            "Medycyna",
+            "Transport"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "tak",
+        "replacesWork": "tak",
+        "futureImpact": "raczej negatywny"
+    },
+    {
+        "age": "15–18",
+        "gender": "kobieta",
+        "usesAI": "tak, często",
+        "helpsHuman": "raczej tak",
+        "areas": [
+            "Nauka i szkoła",
+            "Codzienne życie",
+            "Medycyna",
+            "Transport"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "trochę",
+        "replacesWork": "częściowo",
+        "futureImpact": "neutralny"
+    },
+    {
+        "age": "15–18",
+        "gender": "kobieta",
+        "usesAI": "tak, często",
+        "helpsHuman": "raczej nie",
+        "areas": [
+            "Nauka i szkoła",
+            "Rozrywka i kreatywność"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "tak",
+        "replacesWork": "częściowo",
+        "futureImpact": "raczej negatywny"
+    },
+    {
+        "age": "15–18",
+        "gender": "kobieta",
+        "usesAI": "czasami",
+        "helpsHuman": "raczej tak",
+        "areas": [
+            "Nauka i szkoła",
+            "Biznes i ekonomia",
+            "Transport"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "tak",
+        "replacesWork": "częściowo",
+        "futureImpact": "neutralny"
+    },
+    {
+        "age": "15–18",
+        "gender": "kobieta",
+        "usesAI": "czasami",
+        "helpsHuman": "raczej nie",
+        "areas": [
+            "Codzienne życie"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "trochę",
+        "replacesWork": "częściowo",
+        "futureImpact": "bardzo negatywny"
+    },
+    {
+        "age": "15–18",
+        "gender": "wolę nie podawać",
+        "usesAI": "czasami",
+        "helpsHuman": "raczej tak",
+        "areas": [
+            "Nauka i szkoła",
+            "Technologia i praca",
+            "Codzienne życie"
+        ],
+        "limitsThinking": "trudno powiedzieć",
+        "afraid": "trochę",
+        "replacesWork": "tak",
+        "futureImpact": "neutralny"
+    },
+    {
+        "age": "15–18",
+        "gender": "kobieta",
+        "usesAI": "tak, często",
+        "helpsHuman": "raczej tak",
+        "areas": [
+            "Nauka i szkoła"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "nie",
+        "replacesWork": "częściowo",
+        "futureImpact": "raczej pozytywny"
+    },
+    {
+        "age": "15–18",
+        "gender": "kobieta",
+        "usesAI": "czasami",
+        "helpsHuman": "raczej tak",
+        "areas": [
+            "Technologia i praca",
+            "Codzienne życie",
+            "Medycyna"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "tak",
+        "replacesWork": "częściowo",
+        "futureImpact": "raczej negatywny"
+    },
+    {
+        "age": "40+",
+        "gender": "mężczyzna",
+        "usesAI": "nie",
+        "helpsHuman": "raczej nie",
+        "areas": [
+            "Technologia i praca",
+            "Rozrywka i kreatywność"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "tak",
+        "replacesWork": "tak",
+        "futureImpact": "raczej negatywny"
+    },
+    {
+        "age": "40+",
+        "gender": "kobieta",
+        "usesAI": "czasami",
+        "helpsHuman": "raczej tak",
+        "areas": [
+            "Nauka i szkoła",
+            "Technologia i praca",
+            "Medycyna",
+            "Rozrywka i kreatywność",
+            "Biznes i ekonomia"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "trochę",
+        "replacesWork": "częściowo",
+        "futureImpact": "raczej pozytywny"
+    },
+    {
+        "age": "15–18",
+        "gender": "kobieta",
+        "usesAI": "tak, często",
+        "helpsHuman": "zdecydowanie tak",
+        "areas": [
+            "Nauka i szkoła",
+            "Technologia i praca",
+            "Codzienne życie",
+            "Medycyna",
+            "Rozrywka i kreatywność",
+            "Biznes i ekonomia",
+            "Transport"
+        ],
+        "limitsThinking": "nie",
+        "afraid": "tak",
+        "replacesWork": "tak",
+        "futureImpact": "raczej pozytywny"
+    },
+    {
+        "age": "19–25",
+        "gender": "mężczyzna",
+        "usesAI": "rzadko",
+        "helpsHuman": "raczej nie",
+        "areas": [
+            "Technologia i praca",
+            "Rozrywka i kreatywność"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "trochę",
+        "replacesWork": "częściowo",
+        "futureImpact": "neutralny"
+    },
+    {
+        "age": "40+",
+        "gender": "kobieta",
+        "usesAI": "czasami",
+        "helpsHuman": "raczej tak",
+        "areas": [
+            "Nauka i szkoła",
+            "Technologia i praca",
+            "Medycyna",
+            "Biznes i ekonomia"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "trochę",
+        "replacesWork": "częściowo",
+        "futureImpact": "raczej pozytywny"
+    },
+    {
+        "age": "15–18",
+        "gender": "kobieta",
+        "usesAI": "tak, często",
+        "helpsHuman": "raczej nie",
+        "areas": [
+            "Nauka i szkoła",
+            "Codzienne życie",
+            "Rozrywka i kreatywność"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "trochę",
+        "replacesWork": "częściowo",
+        "futureImpact": "neutralny"
+    },
+    {
+        "age": "poniżej 15",
+        "gender": "mężczyzna",
+        "usesAI": "tak, często",
+        "helpsHuman": "raczej nie",
+        "areas": [
+            "Nauka i szkoła",
+            "Codzienne życie"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "tak",
+        "replacesWork": "tak",
+        "futureImpact": "raczej negatywny"
+    },
+    {
+        "age": "26–40",
+        "gender": "kobieta",
+        "usesAI": "tak, często",
+        "helpsHuman": "zdecydowanie tak",
+        "areas": [
+            "Nauka i szkoła",
+            "Technologia i praca",
+            "Codzienne życie",
+            "Rozrywka i kreatywność",
+            "Biznes i ekonomia",
+            "Transport"
+        ],
+        "limitsThinking": "trudno powiedzieć",
+        "afraid": "nie",
+        "replacesWork": "tak",
+        "futureImpact": "neutralny"
+    },
+    {
+        "age": "40+",
+        "gender": "kobieta",
+        "usesAI": "czasami",
+        "helpsHuman": "raczej tak",
+        "areas": [
+            "Technologia i praca",
+            "Codzienne życie"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "trochę",
+        "replacesWork": "częściowo",
+        "futureImpact": "raczej negatywny"
+    },
+    {
+        "age": "15–18",
+        "gender": "mężczyzna",
+        "usesAI": "tak, często",
+        "helpsHuman": "raczej nie",
+        "areas": [
+            "Nauka i szkoła",
+            "Technologia i praca",
+            "Codzienne życie"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "trochę",
+        "replacesWork": "częściowo",
+        "futureImpact": "raczej negatywny"
+    },
+    {
+        "age": "15–18",
+        "gender": "kobieta",
+        "usesAI": "rzadko",
+        "helpsHuman": "zdecydowanie nie",
+        "areas": [
+            "Nauka i szkoła",
+            "Technologia i praca",
+            "Medycyna",
+            "Rozrywka i kreatywność",
+            "Biznes i ekonomia"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "tak",
+        "replacesWork": "tak",
+        "futureImpact": "bardzo negatywny"
+    },
+    {
+        "age": "15–18",
+        "gender": "kobieta",
+        "usesAI": "czasami",
+        "helpsHuman": "raczej tak",
+        "areas": [
+            "Nauka i szkoła",
+            "Codzienne życie",
+            "Rozrywka i kreatywność"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "nie",
+        "replacesWork": "częściowo",
+        "futureImpact": "raczej pozytywny"
+    },
+    {
+        "age": "15–18",
+        "gender": "kobieta",
+        "usesAI": "tak, często",
+        "helpsHuman": "raczej tak",
+        "areas": [
+            "Nauka i szkoła"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "tak",
+        "replacesWork": "tak",
+        "futureImpact": "bardzo negatywny"
+    },
+    {
+        "age": "15–18",
+        "gender": "kobieta",
+        "usesAI": "tak, często",
+        "helpsHuman": "raczej tak",
+        "areas": [
+            "Nauka i szkoła",
+            "Codzienne życie"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "trudno powiedzieć",
+        "replacesWork": "tak",
+        "futureImpact": "neutralny"
+    },
+    {
+        "age": "poniżej 15",
+        "gender": "kobieta",
+        "usesAI": "rzadko",
+        "helpsHuman": "raczej tak",
+        "areas": [
+            "Nauka i szkoła"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "trochę",
+        "replacesWork": "częściowo",
+        "futureImpact": "raczej pozytywny"
+    },
+    {
+        "age": "40+",
+        "gender": "mężczyzna",
+        "usesAI": "rzadko",
+        "helpsHuman": "zdecydowanie nie",
+        "areas": [
+            "Technologia i praca",
+            "Biznes i ekonomia"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "nie",
+        "replacesWork": "nie",
+        "futureImpact": "raczej pozytywny"
+    },
+    {
+        "age": "40+",
+        "gender": "mężczyzna",
+        "usesAI": "nie",
+        "helpsHuman": "nie mam zdania",
+        "areas": [
+            "Nie wiem"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "trudno powiedzieć",
+        "replacesWork": "nie",
+        "futureImpact": "neutralny"
+    },
+    {
+        "age": "26–40",
+        "gender": "kobieta",
+        "usesAI": "rzadko",
+        "helpsHuman": "raczej tak",
+        "areas": [
+            "Technologia i praca",
+            "Biznes i ekonomia"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "tak",
+        "replacesWork": "częściowo",
+        "futureImpact": "raczej negatywny"
+    },
+    {
+        "age": "26–40",
+        "gender": "kobieta",
+        "usesAI": "tak, często",
+        "helpsHuman": "raczej nie",
+        "areas": [
+            "Nauka i szkoła"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "trochę",
+        "replacesWork": "częściowo",
+        "futureImpact": "neutralny"
+    },
+    {
+        "age": "40+",
+        "gender": "kobieta",
+        "usesAI": "czasami",
+        "helpsHuman": "raczej tak",
+        "areas": [
+            "Nauka i szkoła",
+            "Codzienne życie",
+            "Transport"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "trochę",
+        "replacesWork": "tak",
+        "futureImpact": "neutralny"
+    },
+    {
+        "age": "26–40",
+        "gender": "kobieta",
+        "usesAI": "tak, często",
+        "helpsHuman": "zdecydowanie tak",
+        "areas": [
+            "Nauka i szkoła",
+            "Technologia i praca",
+            "Codzienne życie",
+            "Medycyna",
+            "Rozrywka i kreatywność",
+            "Transport"
+        ],
+        "limitsThinking": "trudno powiedzieć",
+        "afraid": "trudno powiedzieć",
+        "replacesWork": "częściowo",
+        "futureImpact": "raczej pozytywny"
+    },
+    {
+        "age": "40+",
+        "gender": "mężczyzna",
+        "usesAI": "tak, często",
+        "helpsHuman": "nie mam zdania",
+        "areas": [
+            "Nauka i szkoła"
+        ],
+        "limitsThinking": "nie",
+        "afraid": "nie",
+        "replacesWork": "nie",
+        "futureImpact": "neutralny"
+    },
+    {
+        "age": "26–40",
+        "gender": "mężczyzna",
+        "usesAI": "tak, często",
+        "helpsHuman": "nie mam zdania",
+        "areas": [
+            "Nauka i szkoła"
+        ],
+        "limitsThinking": "nie",
+        "afraid": "nie",
+        "replacesWork": "częściowo",
+        "futureImpact": "neutralny"
+    },
+    {
+        "age": "19–25",
+        "gender": "kobieta",
+        "usesAI": "tak, często",
+        "helpsHuman": "nie mam zdania",
+        "areas": [
+            "Nauka i szkoła",
+            "Technologia i praca",
+            "Rozrywka i kreatywność"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "nie",
+        "replacesWork": "nie",
+        "futureImpact": "raczej negatywny"
+    },
+    {
+        "age": "poniżej 15",
+        "gender": "kobieta",
+        "usesAI": "czasami",
+        "helpsHuman": "raczej nie",
+        "areas": [
+            "Biznes i ekonomia"
+        ],
+        "limitsThinking": "nie",
+        "afraid": "trudno powiedzieć",
+        "replacesWork": "częściowo",
+        "futureImpact": "bardzo pozytywny"
+    },
+    {
+        "age": "15–18",
+        "gender": "wolę nie podawać",
+        "usesAI": "nie",
+        "helpsHuman": "zdecydowanie nie",
+        "areas": [
+            "Codzienne życie"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "tak",
+        "replacesWork": "tak",
+        "futureImpact": "bardzo negatywny"
+    },
+    {
+        "age": "40+",
+        "gender": "kobieta",
+        "usesAI": "czasami",
+        "helpsHuman": "raczej nie",
+        "areas": [
+            "Transport"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "tak",
+        "replacesWork": "nie",
+        "futureImpact": "neutralny"
+    },
+    {
+        "age": "26–40",
+        "gender": "mężczyzna",
+        "usesAI": "tak, często",
+        "helpsHuman": "raczej nie",
+        "areas": [
+            "Nauka i szkoła",
+            "Technologia i praca",
+            "Codzienne życie"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "trochę",
+        "replacesWork": "nie",
+        "futureImpact": "bardzo pozytywny"
+    },
+    {
+        "age": "40+",
+        "gender": "kobieta",
+        "usesAI": "nie",
+        "helpsHuman": "nie mam zdania",
+        "areas": [
+            "Codzienne życie"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "tak",
+        "replacesWork": "tak",
+        "futureImpact": "bardzo negatywny"
+    },
+    {
+        "age": "19–25",
+        "gender": "kobieta",
+        "usesAI": "tak, często",
+        "helpsHuman": "raczej tak",
+        "areas": [
+            "Nauka i szkoła"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "trochę",
+        "replacesWork": "częściowo",
+        "futureImpact": "raczej pozytywny"
+    },
+    {
+        "age": "26–40",
+        "gender": "mężczyzna",
+        "usesAI": "tak, często",
+        "helpsHuman": "zdecydowanie tak",
+        "areas": [
+            "Nauka i szkoła",
+            "Transport"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "tak",
+        "replacesWork": "tak",
+        "futureImpact": "neutralny"
+    },
+    {
+        "age": "40+",
+        "gender": "mężczyzna",
+        "usesAI": "czasami",
+        "helpsHuman": "raczej nie",
+        "areas": [
+            "Nauka i szkoła",
+            "Technologia i praca",
+            "Medycyna"
+        ],
+        "limitsThinking": "trudno powiedzieć",
+        "afraid": "trochę",
+        "replacesWork": "częściowo",
+        "futureImpact": "neutralny"
+    },
+    {
+        "age": "60+",
+        "gender": "mężczyzna",
+        "usesAI": "nie",
+        "helpsHuman": "raczej tak",
+        "areas": [
+            "Nauka i szkoła"
+        ],
+        "limitsThinking": "nie",
+        "afraid": "tak",
+        "replacesWork": "tak",
+        "futureImpact": "raczej negatywny"
+    },
+    {
+        "age": "40+",
+        "gender": "mężczyzna",
+        "usesAI": "tak, często",
+        "helpsHuman": "nie mam zdania",
+        "areas": [
+            "Technologia i praca",
+            "Rozrywka i kreatywność"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "trochę",
+        "replacesWork": "częściowo",
+        "futureImpact": "raczej pozytywny"
+    },
+    {
+        "age": "40+",
+        "gender": "kobieta",
+        "usesAI": "rzadko",
+        "helpsHuman": "nie mam zdania",
+        "areas": [
+            "Nauka i szkoła"
+        ],
+        "limitsThinking": "trudno powiedzieć",
+        "afraid": "trudno powiedzieć",
+        "replacesWork": "częściowo",
+        "futureImpact": "raczej negatywny"
+    },
+    {
+        "age": "19–25",
+        "gender": "mężczyzna",
+        "usesAI": "tak, często",
+        "helpsHuman": "raczej tak",
+        "areas": [
+            "Nauka i szkoła",
+            "Technologia i praca",
+            "Rozrywka i kreatywność",
+            "Biznes i ekonomia"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "trochę",
+        "replacesWork": "częściowo",
+        "futureImpact": "raczej negatywny"
+    },
+    {
+        "age": "26–40",
+        "gender": "mężczyzna",
+        "usesAI": "czasami",
+        "helpsHuman": "nie mam zdania",
+        "areas": [
+            "Nauka i szkoła"
+        ],
+        "limitsThinking": "nie",
+        "afraid": "tak",
+        "replacesWork": "tak",
+        "futureImpact": "neutralny"
+    },
+    {
+        "age": "40+",
+        "gender": "mężczyzna",
+        "usesAI": "czasami",
+        "helpsHuman": "nie mam zdania",
+        "areas": [
+            "Technologia i praca",
+            "Transport"
+        ],
+        "limitsThinking": "nie",
+        "afraid": "trochę",
+        "replacesWork": "częściowo",
+        "futureImpact": "neutralny"
+    },
+    {
+        "age": "15–18",
+        "gender": "kobieta",
+        "usesAI": "nie",
+        "helpsHuman": "raczej nie",
+        "areas": [
+            "Nauka i szkoła"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "trochę",
+        "replacesWork": "tak",
+        "futureImpact": "raczej negatywny"
+    },
+    {
+        "age": "15–18",
+        "gender": "kobieta",
+        "usesAI": "rzadko",
+        "helpsHuman": "zdecydowanie nie",
+        "areas": [
+            "Nauka i szkoła",
+            "Biznes i ekonomia"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "trudno powiedzieć",
+        "replacesWork": "częściowo",
+        "futureImpact": "bardzo negatywny"
+    },
+    {
+        "age": "40+",
+        "gender": "mężczyzna",
+        "usesAI": "tak, często",
+        "helpsHuman": "zdecydowanie tak",
+        "areas": [
+            "Technologia i praca",
+            "Codzienne życie"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "trochę",
+        "replacesWork": "częściowo",
+        "futureImpact": "raczej pozytywny"
+    },
+    {
+        "age": "26–40",
+        "gender": "mężczyzna",
+        "usesAI": "czasami",
+        "helpsHuman": "zdecydowanie tak",
+        "areas": [
+            "Technologia i praca"
+        ],
+        "limitsThinking": "trudno powiedzieć",
+        "afraid": "nie",
+        "replacesWork": "trudno powiedzieć",
+        "futureImpact": "neutralny"
+    },
+    {
+        "age": "poniżej 15",
+        "gender": "kobieta",
+        "usesAI": "nie",
+        "helpsHuman": "raczej nie",
+        "areas": [
+            "Nauka i szkoła",
+            "Medycyna"
+        ],
+        "limitsThinking": "trudno powiedzieć",
+        "afraid": "trochę",
+        "replacesWork": "częściowo",
+        "futureImpact": "raczej negatywny"
+    },
+    {
+        "age": "26–40",
+        "gender": "mężczyzna",
+        "usesAI": "tak, często",
+        "helpsHuman": "raczej nie",
+        "areas": [
+            "Nauka i szkoła",
+            "Technologia i praca",
+            "Rozrywka i kreatywność",
+            "Biznes i ekonomia"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "nie",
+        "replacesWork": "częściowo",
+        "futureImpact": "raczej pozytywny"
+    },
+    {
+        "age": "60+",
+        "gender": "mężczyzna",
+        "usesAI": "nie",
+        "helpsHuman": "raczej tak",
+        "areas": [
+            "Technologia i praca"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "tak",
+        "replacesWork": "tak",
+        "futureImpact": "raczej pozytywny"
+    },
+    {
+        "age": "26–40",
+        "gender": "mężczyzna",
+        "usesAI": "tak, często",
+        "helpsHuman": "raczej tak",
+        "areas": [
+            "Nauka i szkoła",
+            "Technologia i praca",
+            "Codzienne życie",
+            "Biznes i ekonomia"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "nie",
+        "replacesWork": "częściowo",
+        "futureImpact": "raczej pozytywny"
+    },
+    {
+        "age": "60+",
+        "gender": "kobieta",
+        "usesAI": "nie",
+        "helpsHuman": "raczej tak",
+        "areas": [
+            "Nauka i szkoła"
+        ],
+        "limitsThinking": "trudno powiedzieć",
+        "afraid": "trudno powiedzieć",
+        "replacesWork": "tak",
+        "futureImpact": "raczej negatywny"
+    },
+    {
+        "age": "26–40",
+        "gender": "mężczyzna",
+        "usesAI": "tak, często",
+        "helpsHuman": "zdecydowanie tak",
+        "areas": [
+            "Technologia i praca",
+            "Rozrywka i kreatywność",
+            "Biznes i ekonomia"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "trochę",
+        "replacesWork": "częściowo",
+        "futureImpact": "raczej pozytywny"
+    },
+    {
+        "age": "19–25",
+        "gender": "mężczyzna",
+        "usesAI": "rzadko",
+        "helpsHuman": "raczej nie",
+        "areas": [
+            "Biznes i ekonomia"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "tak",
+        "replacesWork": "tak",
+        "futureImpact": "bardzo negatywny"
+    },
+    {
+        "age": "15–18",
+        "gender": "kobieta",
+        "usesAI": "rzadko",
+        "helpsHuman": "raczej nie",
+        "areas": [
+            "Biznes i ekonomia"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "tak",
+        "replacesWork": "tak",
+        "futureImpact": "raczej negatywny"
+    },
+    {
+        "age": "15–18",
+        "gender": "mężczyzna",
+        "usesAI": "rzadko",
+        "helpsHuman": "raczej nie",
+        "areas": [
+            "Nauka i szkoła"
+        ],
+        "limitsThinking": "nie",
+        "afraid": "nie",
+        "replacesWork": "nie",
+        "futureImpact": "raczej negatywny"
+    },
+    {
+        "age": "15–18",
+        "gender": "mężczyzna",
+        "usesAI": "tak, często",
+        "helpsHuman": "zdecydowanie nie",
+        "areas": [
+            "Nauka i szkoła",
+            "Technologia i praca",
+            "Codzienne życie"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "tak",
+        "replacesWork": "tak",
+        "futureImpact": "bardzo negatywny"
+    },
+    {
+        "age": "poniżej 15",
+        "gender": "mężczyzna",
+        "usesAI": "czasami",
+        "helpsHuman": "raczej tak",
+        "areas": [
+            "Nauka i szkoła"
+        ],
+        "limitsThinking": "trudno powiedzieć",
+        "afraid": "trochę",
+        "replacesWork": "częściowo",
+        "futureImpact": "raczej pozytywny"
+    },
+    {
+        "age": "15–18",
+        "gender": "mężczyzna",
+        "usesAI": "czasami",
+        "helpsHuman": "nie mam zdania",
+        "areas": [
+            "Nauka i szkoła",
+            "Technologia i praca",
+            "Rozrywka i kreatywność",
+            "Biznes i ekonomia"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "trochę",
+        "replacesWork": "częściowo",
+        "futureImpact": "neutralny"
+    },
+    {
+        "age": "40+",
+        "gender": "kobieta",
+        "usesAI": "nie",
+        "helpsHuman": "raczej nie",
+        "areas": [
+            "Medycyna",
+            "Transport"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "tak",
+        "replacesWork": "trudno powiedzieć",
+        "futureImpact": "raczej negatywny"
+    },
+    {
+        "age": "15–18",
+        "gender": "mężczyzna",
+        "usesAI": "tak, często",
+        "helpsHuman": "zdecydowanie nie",
+        "areas": [
+            "Nauka i szkoła"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "tak",
+        "replacesWork": "częściowo",
+        "futureImpact": "raczej negatywny"
+    },
+    {
+        "age": "15–18",
+        "gender": "kobieta",
+        "usesAI": "czasami",
+        "helpsHuman": "raczej tak",
+        "areas": [
+            "Nauka i szkoła",
+            "Technologia i praca",
+            "Codzienne życie",
+            "Rozrywka i kreatywność",
+            "Transport"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "tak",
+        "replacesWork": "częściowo",
+        "futureImpact": "raczej negatywny"
+    },
+    {
+        "age": "15–18",
+        "gender": "wolę nie podawać",
+        "usesAI": "czasami",
+        "helpsHuman": "raczej nie",
+        "areas": [
+            "Rozrywka i kreatywność"
+        ],
+        "limitsThinking": "trudno powiedzieć",
+        "afraid": "tak",
+        "replacesWork": "częściowo",
+        "futureImpact": "raczej negatywny"
+    },
+    {
+        "age": "15–18",
+        "gender": "mężczyzna",
+        "usesAI": "tak, często",
+        "helpsHuman": "zdecydowanie tak",
+        "areas": [
+            "Nauka i szkoła",
+            "Technologia i praca",
+            "Codzienne życie",
+            "Biznes i ekonomia"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "nie",
+        "replacesWork": "częściowo",
+        "futureImpact": "neutralny"
+    },
+    {
+        "age": "15–18",
+        "gender": "mężczyzna",
+        "usesAI": "tak, często",
+        "helpsHuman": "zdecydowanie nie",
+        "areas": [
+            "Nauka i szkoła",
+            "Technologia i praca",
+            "Codzienne życie",
+            "Rozrywka i kreatywność",
+            "Biznes i ekonomia"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "trochę",
+        "replacesWork": "nie",
+        "futureImpact": "raczej negatywny"
+    },
+    {
+        "age": "15–18",
+        "gender": "mężczyzna",
+        "usesAI": "tak, często",
+        "helpsHuman": "raczej tak",
+        "areas": [
+            "Nauka i szkoła",
+            "Technologia i praca",
+            "Codzienne życie",
+            "Medycyna",
+            "Biznes i ekonomia"
+        ],
+        "limitsThinking": "nie",
+        "afraid": "nie",
+        "replacesWork": "nie",
+        "futureImpact": "neutralny"
+    },
+    {
+        "age": "15–18",
+        "gender": "mężczyzna",
+        "usesAI": "tak, często",
+        "helpsHuman": "raczej tak",
+        "areas": [
+            "Nauka i szkoła",
+            "Technologia i praca",
+            "Codzienne życie",
+            "Medycyna",
+            "Biznes i ekonomia"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "trudno powiedzieć",
+        "replacesWork": "tak",
+        "futureImpact": "neutralny"
+    },
+    {
+        "age": "15–18",
+        "gender": "mężczyzna",
+        "usesAI": "tak, często",
+        "helpsHuman": "raczej tak",
+        "areas": [
+            "Nauka i szkoła",
+            "Technologia i praca",
+            "Codzienne życie",
+            "Rozrywka i kreatywność"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "trudno powiedzieć",
+        "replacesWork": "częściowo",
+        "futureImpact": "neutralny"
+    },
+    {
+        "age": "15–18",
+        "gender": "mężczyzna",
+        "usesAI": "czasami",
+        "helpsHuman": "raczej nie",
+        "areas": [
+            "Nauka i szkoła",
+            "Rozrywka i kreatywność"
+        ],
+        "limitsThinking": "tak",
+        "afraid": "tak",
+        "replacesWork": "częściowo",
+        "futureImpact": "raczej negatywny"
+    }
 ]
