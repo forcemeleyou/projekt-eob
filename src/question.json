@@ -1,0 +1,10 @@
+[
+  { "id": 1, "hint": "częstotliwość", "text": "Czy korzystasz z AI?" },
+  { "id": 2, "hint": "ocena ogólna", "text": "Czy AI pomaga w rozwoju człowieka?" },
+  { "id": 3, "hint": "wielokrotny wybór", "text": "W jakich obszarach AI jest pomocna?" },
+  { "id": 4, "hint": "kluczowe pytanie", "text": "Czy AI ogranicza samodzielne myślenie?" },
+  { "id": 5, "hint": "emocje", "text": "Czy obawiasz się AI?" },
+  { "id": 6, "hint": "rynek pracy", "text": "Czy AI może zastąpić ludzi w pracy?" },
+  { "id": 7, "hint": "prognoza", "text": "Jak oceniasz wpływ AI na przyszłość?" },
+  { "id": 8, "hint": "pytanie otwarte", "text": "Jak AI zmieni życie w przyszłości?" }
+]
