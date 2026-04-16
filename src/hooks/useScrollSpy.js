@@ -1,17 +1,17 @@
 import { useState, useEffect } from "react";
-import { NAV_ITEMS } from "../data/constants";
+import { NAV_IDS } from "../data/constants";
 
 export function useScrollSpy() {
     const [active, setActive] = useState("hero");
 
     useEffect(() => {
         const handler = () => {
-            const sections = NAV_ITEMS
-                .map(i => document.getElementById(i.id))
+            const sections = NAV_IDS
+                .map((id) => document.getElementById(id))
                 .filter(Boolean);
             let current = "hero";
-            for (const s of sections) {
-                if (s.getBoundingClientRect().top <= 80) current = s.id;
+            for (const section of sections) {
+                if (section.getBoundingClientRect().top <= 80) current = section.id;
             }
             setActive(current);
         };

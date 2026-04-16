@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "sync:survey": "python scripts/fetch_google_forms.py",
+    "sync:survey:watch": "python scripts/fetch_google_forms.py --watch"
   },
   "dependencies": {
     "lucide-react": "^1.7.0",

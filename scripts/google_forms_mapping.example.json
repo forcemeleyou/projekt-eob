@@ -1,0 +1,16 @@
+{
+  "question_ids": {
+    "question-id-from-schema": "age"
+  },
+  "question_titles": {
+    "Wiek": "age",
+    "Płeć": "gender",
+    "Czy korzystasz z AI?": "usesAI",
+    "Czy AI pomaga w rozwoju człowieka?": "helpsHuman",
+    "W jakich obszarach AI jest pomocna?": "areas",
+    "Czy AI ogranicza samodzielne myślenie?": "limitsThinking",
+    "Czy obawiasz się AI?": "afraid",
+    "Czy AI może zastąpić ludzi w pracy?": "replacesWork",
+    "Jak oceniasz wpływ AI na przyszłość?": "futureImpact"
+  }
+}

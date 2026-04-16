@@ -1,11 +1,15 @@
-export default function Footer() {
+import { UI_COPY } from "../data/constants";
+
+export default function Footer({ language }) {
+    const copy = UI_COPY[language].footer;
+
     return (
         <footer className="footer">
-            <div className="footer__mark">forcemeleyou&nbsp;✦</div>
+            <div className="footer__mark">forcemeleyou *</div>
             <div className="footer__byline">
-                Made in Rzeszów · 2026<br />
-                Raport № 01 / Edukacja Obywatelska<br />
-                Wszystkie prawa zastrzeżone
+                {copy.byline[0]}<br />
+                {copy.byline[1]}<br />
+                {copy.byline[2]}
             </div>
         </footer>
     );

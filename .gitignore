@@ -13,6 +13,9 @@ dist-ssr
 *.local
 
 .claude/
+credentials.json
+token.json
+scripts/google_forms_mapping.json
 
 # Editor directories and files
 .vscode/*

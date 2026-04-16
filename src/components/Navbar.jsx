@@ -1,10 +1,12 @@
 import { useEffect, useState } from "react";
-import { NAV_ITEMS } from "../data/constants";
+import { NAV_ITEMS, UI_COPY } from "../data/constants";
 import { useScrollSpy } from "../hooks/useScrollSpy";
 
-export default function Navbar() {
+export default function Navbar({ language, onLanguageChange }) {
     const active = useScrollSpy();
     const [open, setOpen] = useState(false);
+    const navItems = NAV_ITEMS[language];
+    const copy = UI_COPY[language];
 
     useEffect(() => {
         if (!open) return;
@@ -22,23 +24,38 @@ export default function Navbar() {
         setOpen(false);
     };
 
+    const renderLanguageToggle = () => (
+        <div className="navbar__language" aria-label={copy.languageLabel}>
+            <button
+                type="button"
+                className={`navbar__language-btn${language === "pl" ? " is-active" : ""}`}
+                onClick={() => onLanguageChange("pl")}
+                aria-pressed={language === "pl"}
+            >
+                PL
+            </button>
+            <span className="navbar__language-separator">/</span>
+            <button
+                type="button"
+                className={`navbar__language-btn${language === "en" ? " is-active" : ""}`}
+                onClick={() => onLanguageChange("en")}
+                aria-pressed={language === "en"}
+            >
+                EN
+            </button>
+        </div>
+    );
+
     return (
         <>
             <nav className="navbar">
-                <div className="navbar__brand">
-                    <span className="navbar__brand-bullet" />
-                    <span className="navbar__brand-text">
-                        Raport <strong>№ 01</strong> · AI / Społeczeństwo
-                    </span>
-                    <span className="navbar__brand-text navbar__brand-text--short">
-                        Raport <strong>№ 01</strong>
-                    </span>
-                </div>
+                {renderLanguageToggle()}
 
                 <div className="navbar__nav">
-                    {NAV_ITEMS.map(item => (
+                    {navItems.map((item) => (
                         <button
                             key={item.id}
+                            type="button"
                             className={`nav-link${active === item.id ? " active" : ""}`}
                             onClick={() => scrollTo(item.id)}
                         >
@@ -48,9 +65,10 @@ export default function Navbar() {
                 </div>
 
                 <button
+                    type="button"
                     className={`navbar__burger${open ? " is-open" : ""}`}
-                    onClick={() => setOpen(o => !o)}
-                    aria-label={open ? "Zamknij menu" : "Otwórz menu"}
+                    onClick={() => setOpen((value) => !value)}
+                    aria-label={open ? copy.navbar.closeMenu : copy.navbar.openMenu}
                     aria-expanded={open}
                 >
                     <span /><span /><span />
@@ -63,21 +81,24 @@ export default function Navbar() {
                 onClick={() => setOpen(false)}
             >
                 <div className="drawer__panel" onClick={(e) => e.stopPropagation()}>
-                    <div className="drawer__label">Spis treści</div>
+                    <div className="drawer__header">
+                        {renderLanguageToggle()}
+                        <div className="drawer__label">{copy.navbar.contents}</div>
+                    </div>
                     <ul className="drawer__list">
-                        {NAV_ITEMS.map((item, i) => (
+                        {navItems.map((item, index) => (
                             <li key={item.id}>
                                 <button
+                                    type="button"
                                     className={`drawer__link${active === item.id ? " active" : ""}`}
                                     onClick={() => scrollTo(item.id)}
                                 >
-                                    <span className="drawer__num">{String(i + 1).padStart(2, "0")}</span>
+                                    <span className="drawer__num">{String(index + 1).padStart(2, "0")}</span>
                                     <span className="drawer__text">{item.label}</span>
                                 </button>
                             </li>
                         ))}
                     </ul>
-                    <div className="drawer__footer">Raport № 01 / 2026</div>
                 </div>
             </div>
         </>

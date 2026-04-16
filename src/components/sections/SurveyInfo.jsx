@@ -1,20 +1,20 @@
-import { SURVEY_QUESTIONS } from "../../data/constants";
+import { SURVEY_QUESTIONS, UI_COPY } from "../../data/constants";
 
-export default function SurveyInfo() {
+export default function SurveyInfo({ language }) {
+    const copy = UI_COPY[language].survey;
+    const questions = SURVEY_QUESTIONS[language];
+
     return (
         <section id="ankieta" className="section">
             <div className="container">
-                <div className="eyebrow">Narzędzie</div>
-                <h2 className="section-title">Nasza <em>ankieta</em></h2>
-                <p className="lede">
-                    Ankieta zawierała 10 pytań zamkniętych i jedno otwarte. Skierowaliśmy ją do osób w każdym wieku —
-                    chcieliśmy zbadać różnice pokoleniowe w postrzeganiu AI. Pokazywaliśmy ludziom kod QR prowadzący do formularza.
-                </p>
+                <div className="eyebrow">{copy.eyebrow}</div>
+                <h2 className="section-title">{copy.title} <em>{copy.titleEm}</em></h2>
+                <p className="lede">{copy.lede}</p>
 
                 <div className="questions">
-                    {SURVEY_QUESTIONS.map((item, i) => (
-                        <div key={i} className="question-row">
-                            <div className="question-row__num">PYT. {String(i + 1).padStart(2, "0")}</div>
+                    {questions.map((item, index) => (
+                        <div key={index} className="question-row">
+                            <div className="question-row__num">{copy.questionPrefix} {String(index + 1).padStart(2, "0")}</div>
                             <div className="question-row__text">{item.q}</div>
                             <div className="question-row__hint">{item.hint}</div>
                         </div>

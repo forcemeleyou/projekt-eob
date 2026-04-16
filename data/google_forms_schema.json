@@ -1,0 +1,60 @@
+{
+  "formId": "1wXGs-zFt05q9mztvE8jfaajq6kYDBVmN0SJSMShSLNE",
+  "info": {
+    "title": "Ankieta (Edukacja Obywatelska)",
+    "description": "\"Wpływ sztucznej inteligencji na rozwój człowieka\"",
+    "documentTitle": "Projekt EOb"
+  },
+  "questions": [
+    {
+      "questionId": "3c56aee9",
+      "title": "Wiek:",
+      "type": "questionItem"
+    },
+    {
+      "questionId": "141eb026",
+      "title": "Płeć:",
+      "type": "questionItem"
+    },
+    {
+      "questionId": "5311d390",
+      "title": "Czy korzystasz ze sztucznej inteligencji (np. ChatGPT, Google Gemini)?",
+      "type": "questionItem"
+    },
+    {
+      "questionId": "2971e2f2",
+      "title": "Czy Twoim zdaniem sztuczna inteligencja pomaga w rozwoju człowieka ?",
+      "type": "questionItem"
+    },
+    {
+      "questionId": "3ed118ce",
+      "title": "W jakich obszarach AI jest najbardziej pomocna? (można zaznaczyć kilka)",
+      "type": "questionItem"
+    },
+    {
+      "questionId": "7c849b27",
+      "title": "Czy Twoim zdaniem AI może ograniczać samodzielne myślenie ludzi?",
+      "type": "questionItem"
+    },
+    {
+      "questionId": "500cb909",
+      "title": "Czy obawiasz się rozwoju sztucznej inteligencji?",
+      "type": "questionItem"
+    },
+    {
+      "questionId": "30d6e0d8",
+      "title": "Czy Twoim zdaniem AI może zastąpić ludzi w pracy?",
+      "type": "questionItem"
+    },
+    {
+      "questionId": "1908f99d",
+      "title": "Jak oceniasz wpływ AI na przyszłość społeczeństwa?",
+      "type": "questionItem"
+    },
+    {
+      "questionId": "251e43cd",
+      "title": "Jak Twoim zdaniem sztuczna inteligencja zmieni życie ludzi w przyszłości?",
+      "type": "questionItem"
+    }
+  ]
+}

@@ -1,35 +1,32 @@
-import { TEAM_MEMBERS } from "../../data/constants";
+import { TEAM_MEMBERS, UI_COPY } from "../../data/constants";
 import { n } from "../../data/stats";
 
-export default function Team() {
-    const colophon = [
-        { label: "Nazwa projektu", val: "Wpływ AI na rozwój człowieka" },
-        { label: "Rodzaj", val: "Badawczy" },
-        { label: "Próba", val: `${n} respondentów` },
-        { label: "Miejsce", val: "Rzeszów, PL" },
-        { label: "Data badania", val: "7 IV 2026" },
-    ];
+function interpolate(text, values) {
+    return text.replace(/\{(\w+)\}/g, (_, key) => values[key] ?? "");
+}
+
+export default function Team({ language }) {
+    const copy = UI_COPY[language].team;
+    const members = TEAM_MEMBERS[language];
 
     return (
         <section id="zespol" className="section">
             <div className="container">
-                <div className="eyebrow">Stopka redakcyjna</div>
+                <div className="eyebrow">{copy.eyebrow}</div>
                 <h2 className="section-title">
-                    Zespół <em>projektowy</em>
+                    {copy.title} <em>{copy.titleEm}</em>
                 </h2>
-                <p className="lede">
-                    Edukacja Obywatelska · projekt badawczy · rok szkolny 2025/2026
-                </p>
+                <p className="lede">{copy.lede}</p>
 
                 <div className="team-grid">
-                    {TEAM_MEMBERS.map((m, i) => (
-                        <article key={m.name} className="team-member">
-                            <div className="team-member__num">№ {String(i + 1).padStart(2, "0")}</div>
-                            {m.role && <div className="team-member__role">{m.role}</div>}
-                            <h3 className="team-member__name">{m.name}</h3>
+                    {members.map((member, index) => (
+                        <article key={member.name} className="team-member">
+                            <div className="team-member__num">No. {String(index + 1).padStart(2, "0")}</div>
+                            {member.role && <div className="team-member__role">{member.role}</div>}
+                            <h3 className="team-member__name">{member.name}</h3>
                             <ul className="team-member__tasks">
-                                {m.tasks.map((t, j) => (
-                                    <li key={j}>{t}</li>
+                                {member.tasks.map((task, taskIndex) => (
+                                    <li key={taskIndex}>{task}</li>
                                 ))}
                             </ul>
                         </article>
@@ -37,10 +34,10 @@ export default function Team() {
                 </div>
 
                 <div className="colophon">
-                    {colophon.map(c => (
-                        <div key={c.label} className="colophon__cell">
-                            <span className="label">{c.label}</span>
-                            <div className="value">{c.val}</div>
+                    {copy.colophon.map((item) => (
+                        <div key={item.label} className="colophon__cell">
+                            <span className="label">{item.label}</span>
+                            <div className="value">{interpolate(item.val, { n })}</div>
                         </div>
                     ))}
                 </div>
