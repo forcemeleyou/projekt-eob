@@ -5,7 +5,7 @@ export default function Footer({ language }) {
 
     return (
         <footer className="footer">
-            <div className="footer__mark">forcemeleyou *</div>
+            <div className="footer__mark">forcemeleyou </div>
             <div className="footer__byline">
                 {copy.byline[0]}<br />
                 {copy.byline[1]}<br />
