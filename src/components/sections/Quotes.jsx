@@ -42,7 +42,6 @@ function isMeaningfulQuote(text) {
 
     if (!normalized) return false;
     if (BANNED_EXACT.has(normalizedCheck)) return false;
-    if (/rozpier/i.test(normalizedCheck)) return false;
     if (letterCount < 12) return false;
     if (words.length < 3 && normalized.length < 25) return false;
 
