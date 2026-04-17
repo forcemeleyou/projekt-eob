@@ -48,9 +48,7 @@
     "helpsHuman": "raczej nie",
     "age": "15–18",
     "futureImpact": "raczej negatywny",
-    "areas": [
-      "Nauka i szkoła"
-    ],
+    "areas": "Nauka i szkoła",
     "limitsThinking": "nie",
     "afraid": "nie",
     "replacesWork": "nie",
@@ -61,9 +59,7 @@
     "helpsHuman": "nie mam zdania",
     "age": "15–18",
     "futureImpact": "raczej negatywny",
-    "areas": [
-      "Technologia i praca"
-    ],
+    "areas": "Technologia i praca",
     "limitsThinking": "tak",
     "afraid": "tak",
     "replacesWork": "częściowo",
@@ -74,9 +70,7 @@
     "helpsHuman": "raczej nie",
     "age": "15–18",
     "futureImpact": "raczej negatywny",
-    "areas": [
-      "Biznes i ekonomia"
-    ],
+    "areas": "Biznes i ekonomia",
     "limitsThinking": "tak",
     "afraid": "tak",
     "openAnswer": "Zabierze ludziom pracę i własne myślenie ",
@@ -103,9 +97,7 @@
     "helpsHuman": "zdecydowanie tak",
     "age": "26–40",
     "futureImpact": "neutralny",
-    "areas": [
-      "Technologia i praca"
-    ],
+    "areas": "Technologia i praca",
     "limitsThinking": "trudno powiedzieć",
     "afraid": "nie",
     "replacesWork": "trudno powiedzieć",
@@ -244,9 +236,7 @@
     "helpsHuman": "raczej tak",
     "age": "15–18",
     "futureImpact": "bardzo negatywny",
-    "areas": [
-      "Nauka i szkoła"
-    ],
+    "areas": "Nauka i szkoła",
     "limitsThinking": "tak",
     "afraid": "tak",
     "openAnswer": "Ludzie nie będą nic ze sobą robić tylko będą polegać na AI",
@@ -258,9 +248,7 @@
     "helpsHuman": "nie mam zdania",
     "age": "40+",
     "futureImpact": "neutralny",
-    "areas": [
-      "Nie wiem"
-    ],
+    "areas": "Nie wiem",
     "limitsThinking": "tak",
     "afraid": "trudno powiedzieć",
     "replacesWork": "nie",
@@ -271,9 +259,7 @@
     "helpsHuman": "nie mam zdania",
     "age": "40+",
     "futureImpact": "bardzo negatywny",
-    "areas": [
-      "Codzienne życie"
-    ],
+    "areas": "Codzienne życie",
     "limitsThinking": "tak",
     "afraid": "tak",
     "replacesWork": "tak",
@@ -284,9 +270,7 @@
     "helpsHuman": "nie mam zdania",
     "age": "15–18",
     "futureImpact": "neutralny",
-    "areas": [
-      "Nauka i szkoła"
-    ],
+    "areas": "Nauka i szkoła",
     "limitsThinking": "tak",
     "afraid": "nie",
     "openAnswer": "Nie jestem wstanie stwierdzić. Uważam że niektórzy nadużywają jej zamiast samodzielnie coś wymyśleć i to może mieć negatywny wpływ",
@@ -298,9 +282,7 @@
     "helpsHuman": "nie mam zdania",
     "age": "40+",
     "futureImpact": "neutralny",
-    "areas": [
-      "Nauka i szkoła"
-    ],
+    "areas": "Nauka i szkoła",
     "limitsThinking": "nie",
     "afraid": "nie",
     "replacesWork": "nie",
@@ -311,9 +293,7 @@
     "helpsHuman": "nie mam zdania",
     "age": "26–40",
     "futureImpact": "neutralny",
-    "areas": [
-      "Nauka i szkoła"
-    ],
+    "areas": "Nauka i szkoła",
     "limitsThinking": "nie",
     "afraid": "tak",
     "replacesWork": "tak",
@@ -373,9 +353,7 @@
     "helpsHuman": "zdecydowanie tak",
     "age": "15–18",
     "futureImpact": "neutralny",
-    "areas": [
-      "Nauka i szkoła"
-    ],
+    "areas": "Nauka i szkoła",
     "limitsThinking": "trudno powiedzieć",
     "afraid": "trochę",
     "openAnswer": "tak",
@@ -387,9 +365,7 @@
     "helpsHuman": "raczej nie",
     "age": "15–18",
     "futureImpact": "raczej negatywny",
-    "areas": [
-      "Rozrywka i kreatywność"
-    ],
+    "areas": "Rozrywka i kreatywność",
     "limitsThinking": "tak",
     "afraid": "tak",
     "openAnswer": "Nwm\n",
@@ -401,9 +377,7 @@
     "helpsHuman": "raczej tak",
     "age": "19–25",
     "futureImpact": "raczej pozytywny",
-    "areas": [
-      "Nauka i szkoła"
-    ],
+    "areas": "Nauka i szkoła",
     "limitsThinking": "tak",
     "afraid": "trochę",
     "openAnswer": "Ograniczy niektóre miejsca pracy ale stworzy nowe dodatkowo będzie miało duży negatywny wpływ na środowisko",
@@ -415,9 +389,7 @@
     "helpsHuman": "zdecydowanie nie",
     "age": "15–18",
     "futureImpact": "bardzo negatywny",
-    "areas": [
-      "Codzienne życie"
-    ],
+    "areas": "Codzienne życie",
     "limitsThinking": "tak",
     "afraid": "tak",
     "openAnswer": "Myślę że ludzie zrobią się leniwi ",
@@ -536,9 +508,7 @@
     "helpsHuman": "nie mam zdania",
     "age": "26–40",
     "futureImpact": "neutralny",
-    "areas": [
-      "Nauka i szkoła"
-    ],
+    "areas": "Nauka i szkoła",
     "limitsThinking": "nie",
     "afraid": "nie",
     "replacesWork": "częściowo",
@@ -592,9 +562,7 @@
     "helpsHuman": "zdecydowanie nie",
     "age": "15–18",
     "futureImpact": "raczej negatywny",
-    "areas": [
-      "Nauka i szkoła"
-    ],
+    "areas": "Nauka i szkoła",
     "limitsThinking": "tak",
     "afraid": "tak",
     "replacesWork": "Tak",
@@ -639,9 +607,7 @@
     "helpsHuman": "nie mam zdania",
     "age": "15–18",
     "futureImpact": "raczej negatywny",
-    "areas": [
-      "Nauka i szkoła"
-    ],
+    "areas": "Nauka i szkoła",
     "limitsThinking": "tak",
     "afraid": "tak",
     "replacesWork": "tak",
@@ -730,9 +696,7 @@
     "helpsHuman": "raczej tak",
     "age": "40+",
     "futureImpact": "raczej negatywny",
-    "areas": [
-      "Nauka i szkoła"
-    ],
+    "areas": "Nauka i szkoła",
     "limitsThinking": "nie",
     "afraid": "tak",
     "replacesWork": "tak",
@@ -789,9 +753,7 @@
     "helpsHuman": "raczej tak",
     "age": "40+",
     "futureImpact": "raczej negatywny",
-    "areas": [
-      "Nauka i szkoła"
-    ],
+    "areas": "Nauka i szkoła",
     "limitsThinking": "trudno powiedzieć",
     "afraid": "trudno powiedzieć",
     "replacesWork": "tak",
@@ -909,9 +871,7 @@
     "helpsHuman": "raczej tak",
     "age": "40+",
     "futureImpact": "raczej pozytywny",
-    "areas": [
-      "Technologia i praca"
-    ],
+    "areas": "Technologia i praca",
     "limitsThinking": "tak",
     "afraid": "tak",
     "replacesWork": "tak",
@@ -922,9 +882,7 @@
     "helpsHuman": "raczej nie",
     "age": "15–18",
     "futureImpact": "bardzo negatywny",
-    "areas": [
-      "Codzienne życie"
-    ],
+    "areas": "Codzienne życie",
     "limitsThinking": "tak",
     "afraid": "trochę",
     "replacesWork": "częściowo",
@@ -950,9 +908,7 @@
     "helpsHuman": "raczej nie",
     "age": "15–18",
     "futureImpact": "raczej negatywny",
-    "areas": [
-      "Rozrywka i kreatywność"
-    ],
+    "areas": "Rozrywka i kreatywność",
     "limitsThinking": "trudno powiedzieć",
     "afraid": "tak",
     "openAnswer": "Na gorsze jeśli nie ograniczać ją",
@@ -964,9 +920,7 @@
     "helpsHuman": "raczej tak",
     "age": "poniżej 15",
     "futureImpact": "raczej pozytywny",
-    "areas": [
-      "Nauka i szkoła"
-    ],
+    "areas": "Nauka i szkoła",
     "limitsThinking": "trudno powiedzieć",
     "afraid": "trochę",
     "replacesWork": "częściowo",
@@ -1023,9 +977,7 @@
     "helpsHuman": "zdecydowanie nie",
     "age": "15–18",
     "futureImpact": "bardzo negatywny",
-    "areas": [
-      "Codzienne życie"
-    ],
+    "areas": "Codzienne życie",
     "limitsThinking": "tak",
     "afraid": "tak",
     "replacesWork": "tak",
@@ -1036,9 +988,7 @@
     "helpsHuman": "raczej nie",
     "age": "19–25",
     "futureImpact": "bardzo negatywny",
-    "areas": [
-      "Biznes i ekonomia"
-    ],
+    "areas": "Biznes i ekonomia",
     "limitsThinking": "tak",
     "afraid": "tak",
     "openAnswer": "Patrząc na obecny sposób używania AI - przyczyni się ona ograniczaniu ludzkiego rozwoju, rozleniwianiu człowieka, zastąpi część myślenia człowieka będąc mu pod ręką. \nMożna by korzystać z niej w sposób odpowiedzialny, ostrożny, służący do ewaluacji i rozwoju pracy ludzkiej, ale używana jest do robienia za ludzi podstawowych procesów myślowych, polityki i studiowania - i to raczej się w przyszłości nie zmieni.\n\nNo i zabierze też dużo wody potrzebnej do przetrwania ludziom :)",
@@ -1070,9 +1020,7 @@
     "helpsHuman": "raczej nie",
     "age": "15–18",
     "futureImpact": "raczej pozytywny",
-    "areas": [
-      "Nauka i szkoła"
-    ],
+    "areas": "Nauka i szkoła",
     "limitsThinking": "tak",
     "afraid": "nie",
     "replacesWork": "częściowo",
@@ -1083,9 +1031,7 @@
     "helpsHuman": "raczej tak",
     "age": "poniżej 15",
     "futureImpact": "raczej pozytywny",
-    "areas": [
-      "Nauka i szkoła"
-    ],
+    "areas": "Nauka i szkoła",
     "limitsThinking": "tak",
     "afraid": "trochę",
     "replacesWork": "częściowo",
@@ -1111,9 +1057,7 @@
     "helpsHuman": "raczej nie",
     "age": "26–40",
     "futureImpact": "neutralny",
-    "areas": [
-      "Nauka i szkoła"
-    ],
+    "areas": "Nauka i szkoła",
     "limitsThinking": "tak",
     "afraid": "trochę",
     "replacesWork": "częściowo",
@@ -1158,9 +1102,7 @@
     "helpsHuman": "raczej nie",
     "age": "15–18",
     "futureImpact": "raczej negatywny",
-    "areas": [
-      "Nauka i szkoła"
-    ],
+    "areas": "Nauka i szkoła",
     "limitsThinking": "tak",
     "afraid": "trochę",
     "replacesWork": "tak",
@@ -1218,9 +1160,7 @@
     "helpsHuman": "raczej nie",
     "age": "poniżej 15",
     "futureImpact": "bardzo pozytywny",
-    "areas": [
-      "Biznes i ekonomia"
-    ],
+    "areas": "Biznes i ekonomia",
     "limitsThinking": "nie",
     "afraid": "trudno powiedzieć",
     "replacesWork": "częściowo",
@@ -1248,9 +1188,7 @@
     "helpsHuman": "raczej nie",
     "age": "40+",
     "futureImpact": "neutralny",
-    "areas": [
-      "Transport"
-    ],
+    "areas": "Transport",
     "limitsThinking": "tak",
     "afraid": "tak",
     "replacesWork": "nie",
@@ -1261,9 +1199,7 @@
     "helpsHuman": "nie mam zdania",
     "age": "40+",
     "futureImpact": "raczej negatywny",
-    "areas": [
-      "Nauka i szkoła"
-    ],
+    "areas": "Nauka i szkoła",
     "limitsThinking": "trudno powiedzieć",
     "afraid": "trudno powiedzieć",
     "replacesWork": "częściowo",
@@ -1341,9 +1277,7 @@
     "helpsHuman": "zdecydowanie nie",
     "age": "15–18",
     "futureImpact": "raczej negatywny",
-    "areas": [
-      "Nauka i szkoła"
-    ],
+    "areas": "Nauka i szkoła",
     "limitsThinking": "tak",
     "afraid": "tak",
     "openAnswer": "Tak ",
@@ -1371,9 +1305,7 @@
     "helpsHuman": "raczej tak",
     "age": "15–18",
     "futureImpact": "raczej pozytywny",
-    "areas": [
-      "Nauka i szkoła"
-    ],
+    "areas": "Nauka i szkoła",
     "limitsThinking": "tak",
     "afraid": "nie",
     "openAnswer": "odciąży w pracy",
