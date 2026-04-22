@@ -1,11 +1,28 @@
 import { n, negativeImpact, limitsYes, oftenUsers } from "../../data/stats";
 import { UI_COPY } from "../../data/constants";
+import { useIsMobile } from "../../hooks/useIsMobile";
+import DarkVeil from "../DarkVeil";
 
 export default function Hero({ language }) {
     const copy = UI_COPY[language].hero;
+    const isMobile = useIsMobile();
 
     return (
         <section id="hero" className="section hero">
+            {!isMobile && (
+                <div className="hero__veil" aria-hidden="true">
+                    <DarkVeil
+                        hueShift={-24}
+                        noiseIntensity={0.02}
+                        scanlineIntensity={0.04}
+                        speed={0.48}
+                        scanlineFrequency={1.4}
+                        warpAmount={0.28}
+                        resolutionScale={1}
+                    />
+                </div>
+            )}
+            <div className="hero__overlay" aria-hidden="true" />
             <div className="container">
                 <div className="hero__meta">
                     <div><span>{copy.meta.placeTime}</span>Rzeszow - 7 IV 2026</div>

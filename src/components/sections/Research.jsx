@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { RESEARCH_CARDS, UI_COPY } from "../../data/constants";
+import StarBorder from "../StarBorder";
 
 export default function Research({ language }) {
     const [activeResearch, setActiveResearch] = useState(null);
@@ -50,6 +51,14 @@ export default function Research({ language }) {
                                     >
                                         {copy.readMore}
                                     </button>
+                                    {/* <StarBorder
+                                    as="button"
+                                    className="custom-class"
+                                    color="magenta"
+                                    speed="5s"
+                                    >
+                                    // content
+                                    </StarBorder> */}
                                 </div>
 
                                 <p className="research-card__summary">{card.summary}</p>
@@ -67,7 +76,14 @@ export default function Research({ language }) {
 
             {activeResearch ? (
                 <div className="quote-modal__backdrop" onClick={() => setActiveResearch(null)}>
-                    <article className="quote-modal research-modal" onClick={(event) => event.stopPropagation()}>
+                    <StarBorder
+                        as="article"
+                        className="quote-modal research-modal star-modal"
+                        color="var(--accent)"
+                        speed="6s"
+                        thickness={2}
+                        onClick={(event) => event.stopPropagation()}
+                    >
                         <button
                             type="button"
                             className="quote-modal__close"
@@ -102,7 +118,7 @@ export default function Research({ language }) {
                         >
                             {copy.openSource}
                         </a>
-                    </article>
+                    </StarBorder>
                 </div>
             ) : null}
         </>

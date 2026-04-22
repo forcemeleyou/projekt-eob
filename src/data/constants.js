@@ -19,24 +19,24 @@ export const NAV_ITEMS = {
 
 export const SURVEY_QUESTIONS = {
     pl: [
-        { q: "Czy korzystasz z AI?", hint: "cz\u0119stotliwo\u015b\u0107" },
-        { q: "Czy AI pomaga w rozwoju cz\u0142owieka?", hint: "ocena og\u00f3lna" },
-        { q: "W jakich obszarach AI jest pomocna?", hint: "wielokrotny wyb\u00f3r" },
-        { q: "Czy AI ogranicza samodzielne my\u015blenie?", hint: "kluczowe pytanie" },
-        { q: "Czy obawiasz si\u0119 AI?", hint: "emocje" },
-        { q: "Czy AI mo\u017ce zast\u0105pi\u0107 ludzi w pracy?", hint: "rynek pracy" },
-        { q: "Jak oceniasz wp\u0142yw AI na przysz\u0142o\u015b\u0107?", hint: "prognoza" },
-        { q: "Jak AI zmieni \u017cycie w przysz\u0142o\u015bci?", hint: "pytanie otwarte" },
+        { q: "Czy korzystasz z AI?", hint: "cz\u0119stotliwo\u015b\u0107", why: "To pytanie pokazuje, jak powszechna jest obecno\u015b\u0107 AI w codziennym \u017cyciu i czy respondenci oceniaj\u0105 t\u0119 technologi\u0119 z w\u0142asnego do\u015bwiadczenia." },
+        { q: "Czy AI pomaga w rozwoju cz\u0142owieka?", hint: "ocena og\u00f3lna", why: "Chcieli\u015bmy sprawdzi\u0107, czy AI jest postrzegana bardziej jako wsparcie rozwoju, czy raczej jako zagro\u017cenie dla samodzielno\u015bci i kompetencji cz\u0142owieka." },
+        { q: "W jakich obszarach AI jest pomocna?", hint: "wielokrotny wyb\u00f3r", why: "To pytanie pozwala zobaczy\u0107, gdzie respondenci najcz\u0119\u015bciej dostrzegaj\u0105 praktyczn\u0105 warto\u015b\u0107 AI: w nauce, pracy, codziennym \u017cyciu czy kreatywno\u015bci." },
+        { q: "Czy AI ogranicza samodzielne my\u015blenie?", hint: "kluczowe pytanie", why: "To by\u0142o jedno z najwa\u017cniejszych pyta\u0144 w badaniu, bo dotyczy bezpo\u015brednio naszej hipotezy o wp\u0142ywie AI na niezale\u017cno\u015b\u0107 my\u015blenia i podejmowanie decyzji." },
+        { q: "Czy obawiasz si\u0119 AI?", hint: "emocje", why: "Zale\u017ca\u0142o nam na uchwyceniu emocjonalnej reakcji na AI, bo same opinie o technologii nie pokazuj\u0105 jeszcze, czy budzi ona niepok\u00f3j, dystans czy poczucie bezpiecze\u0144stwa." },
+        { q: "Czy AI mo\u017ce zast\u0105pi\u0107 ludzi w pracy?", hint: "rynek pracy", why: "To pytanie bada spo\u0142eczne obawy zwi\u0105zane z automatyzacj\u0105 i pozwala sprawdzi\u0107, czy respondenci widz\u0105 AI jako narz\u0119dzie wspieraj\u0105ce cz\u0142owieka, czy konkurencj\u0119." },
+        { q: "Jak oceniasz wp\u0142yw AI na przysz\u0142o\u015b\u0107?", hint: "prognoza", why: "Chcieli\u015bmy wyj\u015b\u0107 poza tera\u017aniejszo\u015b\u0107 i zobaczy\u0107, czy badani patrz\u0105 na rozw\u00f3j AI z optymizmem, ostro\u017cno\u015bci\u0105 czy pesymizmem." },
+        { q: "Jak AI zmieni \u017cycie w przysz\u0142o\u015bci?", hint: "pytanie otwarte", why: "Pytanie otwarte dawa\u0142o przestrze\u0144 na w\u0142asne refleksje respondent\u00f3w i pozwala\u0142o uchwyci\u0107 bardziej osobiste, nieoczywiste oraz emocjonalne opinie o AI." },
     ],
     en: [
-        { q: "Do you use AI?", hint: "frequency" },
-        { q: "Does AI contribute to human development?", hint: "overall evaluation" },
-        { q: "In what areas is AI most helpful?", hint: "multiple choice" },
-        { q: "Does AI limit independent thinking?", hint: "key question" },
-        { q: "Do you have concerns about AI?", hint: "emotions" },
-        { q: "Can AI replace human workers?", hint: "job market" },
-        { q: "How do you view AI's future impact?", hint: "forecast" },
-        { q: "How will AI change our lives in the future?", hint: "open question" },
+        { q: "Do you use AI?", hint: "frequency", why: "This question shows how present AI already is in everyday life and whether respondents are judging it based on direct experience." },
+        { q: "Does AI contribute to human development?", hint: "overall evaluation", why: "We wanted to see whether AI is perceived more as a tool for growth and support, or as a threat to human independence and competence." },
+        { q: "In what areas is AI most helpful?", hint: "multiple choice", why: "This helps us identify where people see the most practical value in AI: education, work, everyday life, creativity, or other areas." },
+        { q: "Does AI limit independent thinking?", hint: "key question", why: "This was one of the central questions in the study because it directly relates to our hypothesis about AI influencing independent thought and decision-making." },
+        { q: "Do you have concerns about AI?", hint: "emotions", why: "We wanted to capture the emotional side of AI perception, because opinions alone do not show whether the technology creates trust, distance, or anxiety." },
+        { q: "Can AI replace human workers?", hint: "job market", why: "This question explores social concerns around automation and helps us understand whether AI is seen as support for people or as direct competition." },
+        { q: "How do you view AI's future impact?", hint: "forecast", why: "We wanted to go beyond the present and see whether respondents look at AI's future with optimism, caution, or pessimism." },
+        { q: "How will AI change our lives in the future?", hint: "open question", why: "The open-ended format gave respondents space for personal reflections and made it possible to capture more nuanced and emotional views on AI." },
     ],
 };
 
@@ -519,6 +519,8 @@ export const UI_COPY = {
             titleEm: "ankieta",
             lede: "Ankieta zawiera\u0142a 10 pyta\u0144 zamkni\u0119tych i jedno otwarte. Skierowali\u015bmy j\u0105 do os\u00f3b w ka\u017cdym wieku - chcieli\u015bmy zbada\u0107 r\u00f3\u017cnice pokoleniowe w postrzeganiu AI. Respondenci wype\u0142niali formularz bezpo\u015brednio na naszych tabletach.",
             questionPrefix: "PYT.",
+            whyLabel: "Dlaczego o to pytaliśmy?",
+            whyToggle: "Szczegóły",
         },
         results: {
             eyebrow: "Dane / wyniki",
@@ -656,6 +658,8 @@ export const UI_COPY = {
             titleEm: "survey",
             lede: "The survey consisted of 10 closed-ended questions and one open-ended question. We targeted people of all ages to explore generational differences in AI perception. Respondents filled out the survey directly on our iPads.",
             questionPrefix: "Q.",
+            whyLabel: "Why did we ask this?",
+            whyToggle: "Details",
         },
         results: {
             eyebrow: "Data / results",
