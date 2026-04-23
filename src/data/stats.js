@@ -1,37 +1,71 @@
-export const n = 94;
+import surveyData from "./survey_data.json";
 
-export const usageFreq = {
-    "tak, często": 42,
-    "czasami": 28,
-    "rzadko": 14,
-    "nie": 10,
-};
-
-export const futureImpact = {
-    "bardzo pozytywny": 2,
-    "raczej pozytywny": 18,
-    "neutralny": 32,
-    "raczej negatywny": 30,
-    "bardzo negatywny": 12,
-};
-
-export const limitsThinking = {
-    "tak": 72,
-    "nie": 11,
-    "trudno powiedzieć": 11,
-};
-
-export const areasCounts = [
-    { name: "Nauka i szkoła", count: 68 },
-    { name: "Technologia i praca", count: 40 },
-    { name: "Codzienne życie", count: 35 },
-    { name: "Rozrywka i kreatywność", count: 31 },
-    { name: "Biznes i ekonomia", count: 25 },
-    { name: "Medycyna", count: 15 },
-    { name: "Transport", count: 13 },
+const USAGE_ORDER = ["tak, często", "czasami", "rzadko", "nie"];
+const FUTURE_IMPACT_ORDER = [
+    "bardzo pozytywny",
+    "raczej pozytywny",
+    "neutralny",
+    "raczej negatywny",
+    "bardzo negatywny",
 ];
+const LIMITS_ORDER = ["tak", "nie", "trudno powiedzieć"];
+const AREA_ORDER = [
+    "Nauka i szkoła",
+    "Technologia i praca",
+    "Codzienne życie",
+    "Rozrywka i kreatywność",
+    "Biznes i ekonomia",
+    "Medycyna",
+    "Transport",
+];
+
+function createCounter(keys) {
+    return Object.fromEntries(keys.map((key) => [key, 0]));
+}
+
+function increment(counter, key) {
+    if (!(key in counter)) {
+        counter[key] = 0;
+    }
+
+    counter[key] += 1;
+}
+
+export const n = surveyData.length;
+
+export const usageFreq = surveyData.reduce((counter, response) => {
+    const value = response.usesAI;
+    if (value) increment(counter, value);
+    return counter;
+}, createCounter(USAGE_ORDER));
+
+export const futureImpact = surveyData.reduce((counter, response) => {
+    const value = response.futureImpact;
+    if (value) increment(counter, value);
+    return counter;
+}, createCounter(FUTURE_IMPACT_ORDER));
+
+export const limitsThinking = surveyData.reduce((counter, response) => {
+    const value = response.limitsThinking;
+    if (value) increment(counter, value);
+    return counter;
+}, createCounter(LIMITS_ORDER));
+
+const areaCounter = surveyData.reduce((counter, response) => {
+    const values = Array.isArray(response.areas) ? response.areas : [response.areas];
+
+    values
+        .filter((value) => value && value !== "Nie wiem")
+        .forEach((value) => increment(counter, value));
+
+    return counter;
+}, createCounter(AREA_ORDER));
+
+export const areasCounts = Object.entries(areaCounter)
+    .map(([name, count]) => ({ name, count }))
+    .sort((left, right) => right.count - left.count);
 
 export const positiveImpact = futureImpact["bardzo pozytywny"] + futureImpact["raczej pozytywny"];
 export const negativeImpact = futureImpact["bardzo negatywny"] + futureImpact["raczej negatywny"];
-export const limitsYes = limitsThinking["tak"];
+export const limitsYes = limitsThinking.tak;
 export const oftenUsers = usageFreq["tak, często"];
