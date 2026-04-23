@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { SURVEY_QUESTIONS, UI_COPY } from "../../data/constants";
+import "./SurveyInfo.css";
 
 export default function SurveyInfo({ language }) {
     const copy = UI_COPY[language].survey;

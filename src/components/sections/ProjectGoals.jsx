@@ -1,5 +1,6 @@
 import { HelpCircle, ClipboardList } from "lucide-react";
 import { UI_COPY } from "../../data/constants";
+import "./ProjectGoals.css";
 
 const ICONS = [HelpCircle, ClipboardList];
 

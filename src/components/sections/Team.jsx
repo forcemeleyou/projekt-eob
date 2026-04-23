@@ -1,5 +1,6 @@
 import { TEAM_MEMBERS, UI_COPY } from "../../data/constants";
 import { n } from "../../data/stats";
+import "./Team.css";
 
 function interpolate(text, values) {
     return text.replace(/\{(\w+)\}/g, (_, key) => values[key] ?? "");

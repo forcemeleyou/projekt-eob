@@ -1,0 +1,36 @@
+.footer {
+    margin-top: 0;
+    padding: 64px var(--gutter) 48px;
+    border-top: 1px solid var(--rule);
+    background: var(--ink-2);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: end;
+    gap: 32px;
+}
+
+.footer__mark {
+    font-family: var(--display);
+    font-variation-settings: "opsz" 144, "wght" 320, "SOFT" 0, "WONK" 1;
+    font-style: italic;
+    font-size: clamp(56px, 5vw, 144px);
+    line-height: 0.8;
+    color: var(--accent);
+    letter-spacing: -0.04em;
+    margin: 0;
+}
+
+.footer__byline {
+    font-family: var(--mono);
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+    color: var(--paper-mute);
+    text-align: right;
+    line-height: 1.8;
+}
+
+@media (max-width: 760px) {
+    .footer__byline { text-align: left; }
+}

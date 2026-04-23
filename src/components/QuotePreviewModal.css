@@ -1,0 +1,29 @@
+.quote-modal__label {
+    font-family: var(--mono);
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    color: var(--accent);
+    text-align: center;
+    margin: -19px auto 2%;
+    width: 230px;
+    padding: 5px;
+}
+
+.quote-modal__text {
+    font-family: var(--body);
+    font-style: normal;
+    font-size: clamp(19px, 1.6vw, 28px);
+    line-height: 1.7;
+    letter-spacing: 0.01em;
+    color: var(--paper);
+    margin: 0 0 32px;
+}
+
+.quote-modal__meta {
+    font-family: var(--mono);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+    color: var(--paper-mute);
+}

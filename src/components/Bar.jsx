@@ -1,4 +1,5 @@
 import { useInView } from "../hooks/useInView";
+import "./Bar.css";
 
 export default function Bar({ label, value, max }) {
     const pct = Math.round((value / max) * 100);

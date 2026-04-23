@@ -2,6 +2,7 @@ import { n, negativeImpact, limitsYes, oftenUsers } from "../../data/stats";
 import { UI_COPY } from "../../data/constants";
 import { useIsMobile } from "../../hooks/useIsMobile";
 import DarkVeil from "../DarkVeil";
+import "./Hero.css";
 
 export default function Hero({ language }) {
     const copy = UI_COPY[language].hero;

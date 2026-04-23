@@ -1,6 +1,8 @@
 import { useEffect } from "react";
 import { UI_COPY } from "../data/constants";
 import StarBorder from "./StarBorder";
+import "./Modal.css";
+import "./QuotePreviewModal.css";
 
 export default function QuotePreviewModal({ language, quote, onClose }) {
     const copy = UI_COPY[language].quoteModal;

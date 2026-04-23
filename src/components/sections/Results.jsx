@@ -1,13 +1,11 @@
 import Bar from "../Bar";
+import "./Results.css";
 import {
     n,
     usageFreq,
     futureImpact,
     limitsThinking,
     areasCounts,
-    negativeImpact,
-    limitsYes,
-    oftenUsers,
 } from "../../data/stats";
 import { RESULTS_LABELS, UI_COPY } from "../../data/constants";
 

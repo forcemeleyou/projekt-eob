@@ -1,5 +1,6 @@
 import { n, negativeImpact, oftenUsers, limitsYes } from "../../data/stats";
 import { UI_COPY } from "../../data/constants";
+import "./Conclusions.css";
 
 function interpolate(text, values) {
     return text.replace(/\{(\w+)\}/g, (_, key) => values[key] ?? "");

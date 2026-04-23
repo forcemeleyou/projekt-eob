@@ -1,7 +1,7 @@
-import "../style/StarBorder.css";
+import "./StarBorder.css";
 
 export default function StarBorder({
-    as: Component = "button",
+    as = "button",
     className = "",
     color = "white",
     speed = "6s",
@@ -9,6 +9,8 @@ export default function StarBorder({
     children,
     ...rest
 }) {
+    const Component = as;
+
     return (
         <Component
             className={`star-border-container ${className}`.trim()}
