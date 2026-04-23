@@ -3,7 +3,7 @@ import SURVEY_DATA from "../../data/survey_data.json";
 import { QUOTES, UI_COPY } from "../../data/constants";
 import { useIsMobile } from "../../hooks/useIsMobile";
 import QuotePreviewModal from "../QuotePreviewModal";
-import "./Quotes.css";
+import "../../style/Quotes.css";
 
 const BANNED_EXACT = new Set([
     "",

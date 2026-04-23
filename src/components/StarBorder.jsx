@@ -1,4 +1,4 @@
-import "./StarBorder.css";
+import "../style/StarBorder.css";
 
 export default function StarBorder({
     as = "button",

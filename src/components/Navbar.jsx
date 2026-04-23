@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { NAV_ITEMS, UI_COPY } from "../data/constants";
 import { useScrollSpy } from "../hooks/useScrollSpy";
-import "./Navbar.css";
+import "../style/Navbar.css";
 
 export default function Navbar({ language, onLanguageChange }) {
     const active = useScrollSpy();

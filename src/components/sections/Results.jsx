@@ -1,5 +1,5 @@
 import Bar from "../Bar";
-import "./Results.css";
+import "../../style/Results.css";
 import {
     n,
     usageFreq,

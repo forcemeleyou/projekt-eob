@@ -1,5 +1,5 @@
 import { UI_COPY } from "../data/constants";
-import "./Footer.css";
+import "../style/Footer.css";
 
 export default function Footer({ language }) {
     const copy = UI_COPY[language].footer;

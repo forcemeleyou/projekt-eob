@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { RESEARCH_CARDS, UI_COPY } from "../../data/constants";
 import StarBorder from "../StarBorder";
-import "../Modal.css";
-import "./Research.css";
+import "../../style/Modal.css";
+import "../../style/Research.css";
 
 export default function Research({ language }) {
     const [activeResearch, setActiveResearch] = useState(null);
