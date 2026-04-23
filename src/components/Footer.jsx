@@ -1,8 +1,8 @@
-import { UI_COPY } from "../data/constants";
+import { CRITICAL_COPY } from "../data/criticalCopy";
 import "../style/Footer.css";
 
 export default function Footer({ language }) {
-    const copy = UI_COPY[language].footer;
+    const copy = CRITICAL_COPY[language].footer;
 
     return (
         <footer className="footer">

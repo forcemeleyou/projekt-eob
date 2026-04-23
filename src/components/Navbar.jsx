@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { NAV_ITEMS, UI_COPY } from "../data/constants";
+import { CRITICAL_COPY, NAV_ITEMS } from "../data/criticalCopy";
 import { useScrollSpy } from "../hooks/useScrollSpy";
 import "../style/Navbar.css";
 
@@ -7,7 +7,7 @@ export default function Navbar({ language, onLanguageChange }) {
     const active = useScrollSpy();
     const [open, setOpen] = useState(false);
     const navItems = NAV_ITEMS[language];
-    const copy = UI_COPY[language];
+    const copy = CRITICAL_COPY[language];
 
     useEffect(() => {
         if (!open) return;

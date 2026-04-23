@@ -1,26 +1,40 @@
+import { Suspense, lazy, useEffect, useState } from "react";
 import { n, negativeImpact, limitsYes, oftenUsers } from "../../data/stats";
-import { UI_COPY } from "../../data/constants";
+import { CRITICAL_COPY } from "../../data/criticalCopy";
 import { useIsMobile } from "../../hooks/useIsMobile";
-import DarkVeil from "../DarkVeil";
 import "../../style/Hero.css";
 
+const DarkVeil = lazy(() => import("../DarkVeil"));
+
 export default function Hero({ language }) {
-    const copy = UI_COPY[language].hero;
+    const copy = CRITICAL_COPY[language].hero;
     const isMobile = useIsMobile();
+    const [veilReady, setVeilReady] = useState(false);
+    const showVeil = veilReady;
+
+    useEffect(() => {
+        const scheduleIdle = window.requestIdleCallback ?? ((callback) => window.setTimeout(callback, 900));
+        const cancelIdle = window.cancelIdleCallback ?? window.clearTimeout;
+        const idleId = scheduleIdle(() => setVeilReady(true), { timeout: 1600 });
+
+        return () => cancelIdle(idleId);
+    }, []);
 
     return (
         <section id="hero" className="section hero">
-            {!isMobile && (
+            {showVeil && (
                 <div className="hero__veil" aria-hidden="true">
-                    <DarkVeil
-                        hueShift={-24}
-                        noiseIntensity={0.02}
-                        scanlineIntensity={0.04}
-                        speed={0.48}
-                        scanlineFrequency={1.4}
-                        warpAmount={0.28}
-                        resolutionScale={1}
-                    />
+                    <Suspense fallback={null}>
+                        <DarkVeil
+                            hueShift={-24}
+                            noiseIntensity={isMobile ? 0.018 : 0.02}
+                            scanlineIntensity={isMobile ? 0.035 : 0.04}
+                            speed={isMobile ? 0.36 : 0.48}
+                            scanlineFrequency={isMobile ? 1.2 : 1.4}
+                            warpAmount={isMobile ? 0.24 : 0.28}
+                            resolutionScale={isMobile ? 0.58 : 1}
+                        />
+                    </Suspense>
                 </div>
             )}
             <div className="hero__overlay" aria-hidden="true" />

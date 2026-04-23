@@ -200,6 +200,28 @@
 }
 
 @media (max-width: 760px) {
+    .hero {
+        min-height: 100svh;
+    }
+
+    .hero__veil {
+        inset: 8% 0 -8%;
+        width: 100%;
+        opacity: 0.82;
+        animation-duration: 12s;
+        transform: none;
+        filter: saturate(1.22) contrast(1.05);
+        -webkit-mask-image: none;
+        mask-image: none;
+    }
+
+    .hero__overlay {
+        background:
+            radial-gradient(ellipse at 50% 42%, rgba(248, 160, 241, 0.24), transparent 52%),
+            radial-gradient(circle at 82% 74%, rgba(243, 198, 91, 0.07), transparent 34%),
+            linear-gradient(180deg, rgba(13, 12, 10, 0.36), rgba(13, 12, 10, 0.58) 54%, rgba(13, 12, 10, 0.88));
+    }
+
     .hero__bottom { grid-template-columns: 1fr; }
     .hero__stats { grid-template-columns: 1fr; gap: 24px; }
     .hero__byline { text-align: left; }

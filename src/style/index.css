@@ -74,9 +74,15 @@ img { display: block; max-width: 100%; }
     position: relative;
     padding: clamp(80px, 11vw, 160px) 0;
     border-top: var(--rule-w) solid var(--rule);
+    content-visibility: auto;
+    contain-intrinsic-size: 900px;
 }
 
-.section:first-of-type { border-top: 0; }
+.section:first-of-type {
+    border-top: 0;
+    content-visibility: visible;
+    contain-intrinsic-size: auto;
+}
 
 .container {
     width: 100%;

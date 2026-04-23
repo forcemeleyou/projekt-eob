@@ -1,48 +1,35 @@
-import SURVEY_DATA from "./survey_data.json";
-
-function count(arr, key, val) {
-    return arr.filter(r => r[key] === val).length;
-}
-function countArr(arr, key, val) {
-    return arr.filter(r => r[key] && r[key].includes(val)).length;
-}
-
-export const n = SURVEY_DATA.length;
+export const n = 94;
 
 export const usageFreq = {
-    "tak, często": count(SURVEY_DATA, "usesAI", "tak, często"),
-    "czasami": count(SURVEY_DATA, "usesAI", "czasami"),
-    "rzadko": count(SURVEY_DATA, "usesAI", "rzadko"),
-    "nie": count(SURVEY_DATA, "usesAI", "nie"),
+    "tak, często": 42,
+    "czasami": 28,
+    "rzadko": 14,
+    "nie": 10,
 };
 
 export const futureImpact = {
-    "bardzo pozytywny": count(SURVEY_DATA, "futureImpact", "bardzo pozytywny"),
-    "raczej pozytywny": count(SURVEY_DATA, "futureImpact", "raczej pozytywny"),
-    "neutralny": count(SURVEY_DATA, "futureImpact", "neutralny"),
-    "raczej negatywny": count(SURVEY_DATA, "futureImpact", "raczej negatywny"),
-    "bardzo negatywny": count(SURVEY_DATA, "futureImpact", "bardzo negatywny"),
+    "bardzo pozytywny": 2,
+    "raczej pozytywny": 18,
+    "neutralny": 32,
+    "raczej negatywny": 30,
+    "bardzo negatywny": 12,
 };
 
 export const limitsThinking = {
-    "tak": count(SURVEY_DATA, "limitsThinking", "tak"),
-    "nie": count(SURVEY_DATA, "limitsThinking", "nie"),
-    "trudno powiedzieć": count(SURVEY_DATA, "limitsThinking", "trudno powiedzieć"),
+    "tak": 72,
+    "nie": 11,
+    "trudno powiedzieć": 11,
 };
 
-const AREAS = [
-    "Nauka i szkoła",
-    "Codzienne życie",
-    "Technologia i praca",
-    "Rozrywka i kreatywność",
-    "Medycyna",
-    "Biznes i ekonomia",
-    "Transport",
+export const areasCounts = [
+    { name: "Nauka i szkoła", count: 68 },
+    { name: "Technologia i praca", count: 40 },
+    { name: "Codzienne życie", count: 35 },
+    { name: "Rozrywka i kreatywność", count: 31 },
+    { name: "Biznes i ekonomia", count: 25 },
+    { name: "Medycyna", count: 15 },
+    { name: "Transport", count: 13 },
 ];
-
-export const areasCounts = AREAS
-    .map(a => ({ name: a, count: countArr(SURVEY_DATA, "areas", a) }))
-    .sort((a, b) => b.count - a.count);
 
 export const positiveImpact = futureImpact["bardzo pozytywny"] + futureImpact["raczej pozytywny"];
 export const negativeImpact = futureImpact["bardzo negatywny"] + futureImpact["raczej negatywny"];

@@ -1,53 +1,12 @@
 import { useState } from "react";
-import SURVEY_DATA from "../../data/survey_data.json";
 import { QUOTES, UI_COPY } from "../../data/constants";
+import { SURVEY_QUOTES } from "../../data/surveyQuotes";
 import { useIsMobile } from "../../hooks/useIsMobile";
 import QuotePreviewModal from "../QuotePreviewModal";
 import "../../style/Quotes.css";
 
-const BANNED_EXACT = new Set([
-    "",
-    ".",
-    ",",
-    "-",
-    "?",
-    "!",
-    "tak",
-    "nie",
-    "nwm",
-    "nie wiem",
-    "ok",
-    "git",
-    "spoko",
-    "tak na minus",
-    "popsuje nas",
-]);
-
-function normalizeText(text) {
-    if (typeof text !== "string") return "";
-    return text.replace(/\s+/g, " ").trim();
-}
-
-function normalizeForCheck(text) {
-    return normalizeText(text)
-        .toLowerCase()
-        .replace(/[^\p{L}\p{N}\s]/gu, "")
-        .trim();
-}
-
-function isMeaningfulQuote(text) {
-    const normalized = normalizeText(text);
-    const normalizedCheck = normalizeForCheck(text);
-    const words = normalizedCheck.split(/\s+/).filter(Boolean);
-    const letterCount = (normalizedCheck.match(/\p{L}/gu) || []).length;
-
-    if (!normalized) return false;
-    if (BANNED_EXACT.has(normalizedCheck)) return false;
-    if (letterCount < 12) return false;
-    if (words.length < 3 && normalized.length < 25) return false;
-
-    return true;
-}
+const previewText = (text, length = 180) =>
+    text.length > length ? `${text.slice(0, length).trim()}...` : text;
 
 function translateGender(gender, language) {
     if (language === "en") {
@@ -60,20 +19,18 @@ function translateGender(gender, language) {
 }
 
 function buildQuotes(language) {
-    const dynamicQuotes = SURVEY_DATA
-        .filter((row) => isMeaningfulQuote(row.openAnswer))
-        .map((row) => ({
-            text: normalizeText(row.openAnswer),
-            age: row.age,
-            gender: translateGender(row.gender, language),
-            genderShort: row.gender?.[0]?.toUpperCase() || "?",
-        }));
+    const dynamicQuotes = SURVEY_QUOTES.map((quote) => ({
+        ...quote,
+        gender: translateGender(quote.gender, language),
+    }));
 
     return dynamicQuotes.length > 0 ? dynamicQuotes : QUOTES[language];
 }
 
 export default function Quotes({ language }) {
     const [activeQuotePreview, setActiveQuotePreview] = useState(null);
+    const [mobileQuoteIndex, setMobileQuoteIndex] = useState(0);
+    const [mobileQuoteDirection, setMobileQuoteDirection] = useState(1);
     const isMobile = useIsMobile();
     const quotes = buildQuotes(language);
     const copy = UI_COPY[language].quotes;
@@ -81,7 +38,12 @@ export default function Quotes({ language }) {
         longest.text.length >= current.text.length ? longest : current,
     );
     const rest = quotes.filter((quote) => quote !== featured);
-    const marqueeQuotes = isMobile ? rest : [...rest, ...rest];
+    const marqueeQuotes = isMobile ? [rest[mobileQuoteIndex % rest.length]] : [...rest, ...rest];
+
+    const moveMobileCarousel = (direction) => {
+        setMobileQuoteDirection(direction);
+        setMobileQuoteIndex((index) => (index + direction + rest.length) % rest.length);
+    };
 
     return (
         <>
@@ -100,10 +62,9 @@ export default function Quotes({ language }) {
                         onClick={() => setActiveQuotePreview(featured)}
                         style={{ cursor: "pointer" }}
                     >
+                        <div className="feature-quote__label">{copy.featuredTitle}</div>
                         <blockquote className="feature-quote__text">
-                            {featured.text.length > 180
-                                ? `${featured.text.slice(0, 180).trim()}...`
-                                : featured.text}
+                            {previewText(featured.text)}
                         </blockquote>
                         <figcaption className="feature-quote__meta">
                             - {featured.gender}, {featured.age} {copy.yearsSuffix} - {copy.readMore}
@@ -111,16 +72,18 @@ export default function Quotes({ language }) {
                     </figure>
                 </div>
 
-                <div className="quote-marquee">
+                <div
+                    className={`quote-marquee${isMobile ? " is-mobile" : ""}`}
+                    onTouchMove={isMobile ? (event) => event.preventDefault() : undefined}
+                >
                     <div
                         className="quote-track"
                         style={isMobile ? {
                             animation: "none",
-                            overflowX: "auto",
-                            WebkitOverflowScrolling: "touch",
+                            overflowX: "hidden",
                             scrollbarWidth: "none",
                             msOverflowStyle: "none",
-                            touchAction: "pan-x",
+                            touchAction: "none",
                             width: "100%",
                             maxWidth: "100vw",
                         } : {}}
@@ -128,17 +91,40 @@ export default function Quotes({ language }) {
                         {marqueeQuotes.map((quote, index) => (
                             <article
                                 key={`${quote.age}-${quote.genderShort}-${index}`}
-                                className="quote-card"
+                                className={`quote-card${isMobile ? ` quote-card--mobile is-moving-${mobileQuoteDirection > 0 ? "next" : "prev"}` : ""}`}
                                 onClick={() => setActiveQuotePreview(quote)}
                             >
                                 <div>
                                     <div className="quote-card__num">No. {String((index % rest.length) + 1).padStart(2, "0")}</div>
-                                    <p className="quote-card__text">{quote.text}</p>
+                                    <p className="quote-card__text">{previewText(quote.text, 150)}</p>
                                 </div>
                                 <div className="quote-card__meta">- {quote.gender}, {quote.age} {copy.yearsSuffix}</div>
                             </article>
                         ))}
                     </div>
+                    {isMobile ? (
+                        <div className="quote-controls" aria-label={copy.carouselLabel}>
+                            <button
+                                type="button"
+                                className="quote-controls__button"
+                                onClick={() => moveMobileCarousel(-1)}
+                                aria-label={copy.previousQuote}
+                            >
+                                &larr;
+                            </button>
+                            <div className="quote-controls__count">
+                                {String((mobileQuoteIndex % rest.length) + 1).padStart(2, "0")} / {String(rest.length).padStart(2, "0")}
+                            </div>
+                            <button
+                                type="button"
+                                className="quote-controls__button"
+                                onClick={() => moveMobileCarousel(1)}
+                                aria-label={copy.nextQuote}
+                            >
+                                &rarr;
+                            </button>
+                        </div>
+                    ) : null}
                 </div>
             </section>
             <QuotePreviewModal language={language} quote={activeQuotePreview} onClose={() => setActiveQuotePreview(null)} />
