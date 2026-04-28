@@ -28,7 +28,8 @@ function buildQuotes(language) {
 }
 
 export default function Quotes({ language }) {
-    const [activeQuotePreview, setActiveQuotePreview] = useState(null);
+    const [activeQuoteIndex, setActiveQuoteIndex] = useState(null);
+    const [previewDirection, setPreviewDirection] = useState(1);
     const [mobileQuoteIndex, setMobileQuoteIndex] = useState(0);
     const [mobileQuoteDirection, setMobileQuoteDirection] = useState(1);
     const isMobile = useIsMobile();
@@ -38,7 +39,10 @@ export default function Quotes({ language }) {
         longest.text.length >= current.text.length ? longest : current,
     );
     const rest = quotes.filter((quote) => quote !== featured);
-    const marqueeQuotes = isMobile ? [rest[mobileQuoteIndex % rest.length]] : [...rest, ...rest];
+    const marqueeQuotes = isMobile
+        ? [rest[mobileQuoteIndex % rest.length]]
+        : [...rest, ...rest, ...rest];
+    const activeQuotePreview = activeQuoteIndex === null ? null : quotes[activeQuoteIndex];
 
     const moveMobileCarousel = (direction) => {
         setMobileQuoteDirection(direction);
@@ -59,7 +63,7 @@ export default function Quotes({ language }) {
 
                     <figure
                         className="feature-quote"
-                        onClick={() => setActiveQuotePreview(featured)}
+                        onClick={() => setActiveQuoteIndex(quotes.indexOf(featured))}
                         style={{ cursor: "pointer" }}
                     >
                         <div className="feature-quote__label">{copy.featuredTitle}</div>
@@ -76,31 +80,35 @@ export default function Quotes({ language }) {
                     className={`quote-marquee${isMobile ? " is-mobile" : ""}`}
                     onTouchMove={isMobile ? (event) => event.preventDefault() : undefined}
                 >
-                    <div
-                        className="quote-track"
-                        style={isMobile ? {
-                            animation: "none",
-                            overflowX: "hidden",
-                            scrollbarWidth: "none",
-                            msOverflowStyle: "none",
-                            touchAction: "none",
-                            width: "100%",
-                            maxWidth: "100vw",
-                        } : {}}
-                    >
-                        {marqueeQuotes.map((quote, index) => (
-                            <article
-                                key={`${quote.age}-${quote.genderShort}-${index}`}
-                                className={`quote-card${isMobile ? ` quote-card--mobile is-moving-${mobileQuoteDirection > 0 ? "next" : "prev"}` : ""}`}
-                                onClick={() => setActiveQuotePreview(quote)}
-                            >
-                                <div>
-                                    <div className="quote-card__num">No. {String((index % rest.length) + 1).padStart(2, "0")}</div>
-                                    <p className="quote-card__text">{previewText(quote.text, 150)}</p>
-                                </div>
-                                <div className="quote-card__meta">- {quote.gender}, {quote.age} {copy.yearsSuffix}</div>
-                            </article>
-                        ))}
+                    <div className="quote-marquee__viewport">
+                        <div
+                            className="quote-track"
+                            style={isMobile ? {
+                                animation: "none",
+                                overflowX: "hidden",
+                                scrollbarWidth: "none",
+                                msOverflowStyle: "none",
+                                touchAction: "none",
+                                width: "100%",
+                                maxWidth: "100vw",
+                            } : {}}
+                        >
+                            {marqueeQuotes.map((quote, index) => (
+                                <article
+                                    key={`${quote.age}-${quote.genderShort}-${index}`}
+                                    className={`quote-card${isMobile ? ` quote-card--mobile is-moving-${mobileQuoteDirection > 0 ? "next" : "prev"}` : " quote-card--desktop"}`}
+                                    onClick={() => setActiveQuoteIndex(quotes.indexOf(quote))}
+                                >
+                                    <div>
+                                        <div className="quote-card__num">
+                                            No. {String(((isMobile ? mobileQuoteIndex : index) % rest.length) + 1).padStart(2, "0")}
+                                        </div>
+                                        <p className="quote-card__text">{previewText(quote.text, 150)}</p>
+                                    </div>
+                                    <div className="quote-card__meta">- {quote.gender}, {quote.age} {copy.yearsSuffix}</div>
+                                </article>
+                            ))}
+                        </div>
                     </div>
                     {isMobile ? (
                         <div className="quote-controls" aria-label={copy.carouselLabel}>
@@ -127,7 +135,23 @@ export default function Quotes({ language }) {
                     ) : null}
                 </div>
             </section>
-            <QuotePreviewModal language={language} quote={activeQuotePreview} onClose={() => setActiveQuotePreview(null)} />
+            <QuotePreviewModal
+                language={language}
+                quote={activeQuotePreview}
+                quoteKey={activeQuoteIndex}
+                currentIndex={activeQuoteIndex}
+                totalQuotes={quotes.length}
+                transitionDirection={previewDirection}
+                onClose={() => setActiveQuoteIndex(null)}
+                onPrevious={activeQuoteIndex === null ? undefined : () => {
+                    setPreviewDirection(-1);
+                    setActiveQuoteIndex((activeQuoteIndex - 1 + quotes.length) % quotes.length);
+                }}
+                onNext={activeQuoteIndex === null ? undefined : () => {
+                    setPreviewDirection(1);
+                    setActiveQuoteIndex((activeQuoteIndex + 1) % quotes.length);
+                }}
+            />
         </>
     );
 }

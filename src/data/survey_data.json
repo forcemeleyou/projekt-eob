@@ -337,6 +337,20 @@
   {
     "helpsHuman": "raczej tak",
     "age": "15–18",
+    "futureImpact": "neutralny",
+    "areas": [
+      "Nauka i szkoła",
+      "Codzienne życie"
+    ],
+    "limitsThinking": "trudno powiedzieć",
+    "afraid": "trochę",
+    "replacesWork": "częściowo",
+    "gender": "kobieta",
+    "usesAI": "tak, często"
+  },
+  {
+    "helpsHuman": "raczej tak",
+    "age": "15–18",
     "futureImpact": "raczej pozytywny",
     "areas": [
       "Nauka i szkoła",
@@ -348,6 +362,21 @@
     "replacesWork": "częściowo",
     "gender": "kobieta",
     "usesAI": "czasami"
+  },
+  {
+    "helpsHuman": "raczej tak",
+    "age": "15–18",
+    "futureImpact": "neutralny",
+    "areas": [
+      "Nauka i szkoła",
+      "Codzienne życie"
+    ],
+    "limitsThinking": "nie",
+    "afraid": "trochę",
+    "openAnswer": "Nie zmieni ",
+    "replacesWork": "nie",
+    "gender": "mężczyzna",
+    "usesAI": "tak, często"
   },
   {
     "helpsHuman": "zdecydowanie tak",
@@ -440,6 +469,36 @@
     "openAnswer": "Ograniczy myślenie młodego społeczeństwa  przyszłe generacje będą polegać wyłącznie na AI",
     "replacesWork": "tak",
     "gender": "mężczyzna",
+    "usesAI": "tak, często"
+  },
+  {
+    "helpsHuman": "raczej tak",
+    "age": "15–18",
+    "futureImpact": "raczej negatywny",
+    "areas": [
+      "Nauka i szkoła",
+      "Codzienne życie",
+      "Medycyna"
+    ],
+    "limitsThinking": "tak",
+    "afraid": "trochę",
+    "replacesWork": "częściowo",
+    "gender": "kobieta",
+    "usesAI": "tak, często"
+  },
+  {
+    "helpsHuman": "zdecydowanie tak",
+    "age": "poniżej 15",
+    "futureImpact": "bardzo pozytywny",
+    "areas": [
+      "Nauka i szkoła",
+      "Codzienne życie",
+      "Rozrywka i kreatywność"
+    ],
+    "limitsThinking": "trudno powiedzieć",
+    "afraid": "trudno powiedzieć",
+    "replacesWork": "częściowo",
+    "gender": "kobieta",
     "usesAI": "tak, często"
   },
   {
@@ -575,6 +634,20 @@
     "futureImpact": "neutralny",
     "areas": [
       "Nauka i szkoła",
+      "Rozrywka i kreatywność"
+    ],
+    "limitsThinking": "trudno powiedzieć",
+    "afraid": "trochę",
+    "replacesWork": "częściowo",
+    "gender": "kobieta",
+    "usesAI": "tak, często"
+  },
+  {
+    "helpsHuman": "raczej tak",
+    "age": "15–18",
+    "futureImpact": "neutralny",
+    "areas": [
+      "Nauka i szkoła",
       "Technologia i praca",
       "Codzienne życie",
       "Medycyna",
@@ -613,6 +686,34 @@
     "replacesWork": "tak",
     "gender": "kobieta",
     "usesAI": "czasami"
+  },
+  {
+    "helpsHuman": "zdecydowanie tak",
+    "age": "15–18",
+    "futureImpact": "raczej pozytywny",
+    "areas": [
+      "Nauka i szkoła",
+      "Technologia i praca",
+      "Codzienne życie"
+    ],
+    "limitsThinking": "trudno powiedzieć",
+    "afraid": "trochę",
+    "openAnswer": "Już zmieniła ",
+    "replacesWork": "częściowo",
+    "gender": "kobieta",
+    "usesAI": "tak, często"
+  },
+  {
+    "helpsHuman": "raczej nie",
+    "age": "19–25",
+    "futureImpact": "neutralny",
+    "areas": "Medycyna",
+    "limitsThinking": "nie",
+    "afraid": "tak",
+    "openAnswer": "według ma wpływ że na to że np kupuje se kebaba potem go jem i się cieszę i ai na to nie ma wogule wpływu że se zjem kebaba",
+    "replacesWork": "tak",
+    "gender": "kobieta",
+    "usesAI": "tak, często"
   },
   {
     "helpsHuman": "raczej nie",
@@ -853,6 +954,17 @@
     "usesAI": "tak, często"
   },
   {
+    "helpsHuman": "zdecydowanie tak",
+    "age": "40+",
+    "futureImpact": "bardzo pozytywny",
+    "areas": "Technologia i praca",
+    "limitsThinking": "nie",
+    "afraid": "nie",
+    "replacesWork": "tak",
+    "gender": "mężczyzna",
+    "usesAI": "tak, często"
+  },
+  {
     "helpsHuman": "raczej nie",
     "age": "15–18",
     "futureImpact": "bardzo negatywny",
@@ -865,6 +977,50 @@
     "openAnswer": "ludzie będą zawsze wybierać proste rozwiązania nie będą nawet próbowali samodzielnie myśleć. przestaną się rozwijać i uczyc, bo wszystko przecież powie im ai. a praca ludzi może się ograniczyć tylko do wspierania w jakiś sposób robotów bo wszystko będą za nas robić.",
     "replacesWork": "tak",
     "gender": "kobieta",
+    "usesAI": "tak, często"
+  },
+  {
+    "helpsHuman": "raczej tak",
+    "age": "15–18",
+    "futureImpact": "bardzo pozytywny",
+    "areas": "Nauka i szkoła",
+    "limitsThinking": "tak",
+    "afraid": "nie",
+    "openAnswer": "Ułatwi pracę ",
+    "replacesWork": "częściowo",
+    "gender": "kobieta",
+    "usesAI": "tak, często"
+  },
+  {
+    "helpsHuman": "raczej tak",
+    "age": "15–18",
+    "futureImpact": "raczej negatywny",
+    "areas": [
+      "Nauka i szkoła",
+      "Technologia i praca",
+      "Codzienne życie"
+    ],
+    "limitsThinking": "tak",
+    "afraid": "tak",
+    "replacesWork": "tak",
+    "gender": "mężczyzna",
+    "usesAI": "tak, często"
+  },
+  {
+    "helpsHuman": "raczej tak",
+    "age": "15–18",
+    "futureImpact": "raczej pozytywny",
+    "areas": [
+      "Nauka i szkoła",
+      "Technologia i praca",
+      "Codzienne życie",
+      "Biznes i ekonomia"
+    ],
+    "limitsThinking": "trudno powiedzieć",
+    "afraid": "trochę",
+    "openAnswer": "Sztuczna inteligencja zmieni życie ludzi głównie w pracy, nauce i codziennym życiu. Wiele zawodów zostanie zastąpionych przez AI, ale powstaną też nowe. Nauka będzie łatwiejsza dzięki dopasowaniu do ucznia. W życiu codziennym AI ułatwi wiele rzeczy, np. planowanie dnia. Może to być duża pomoc, ale ważne jest, żeby korzystać z niej z głową.",
+    "replacesWork": "tak",
+    "gender": "mężczyzna",
     "usesAI": "tak, często"
   },
   {
@@ -985,6 +1141,22 @@
     "usesAI": "nie"
   },
   {
+    "helpsHuman": "zdecydowanie tak",
+    "age": "19–25",
+    "futureImpact": "neutralny",
+    "areas": [
+      "Technologia i praca",
+      "Codzienne życie",
+      "Rozrywka i kreatywność",
+      "Biznes i ekonomia"
+    ],
+    "limitsThinking": "nie",
+    "afraid": "nie",
+    "replacesWork": "częściowo",
+    "gender": "kobieta",
+    "usesAI": "tak, często"
+  },
+  {
     "helpsHuman": "raczej nie",
     "age": "19–25",
     "futureImpact": "bardzo negatywny",
@@ -1025,6 +1197,17 @@
     "afraid": "nie",
     "replacesWork": "częściowo",
     "gender": "kobieta",
+    "usesAI": "tak, często"
+  },
+  {
+    "helpsHuman": "zdecydowanie nie",
+    "age": "poniżej 15",
+    "futureImpact": "bardzo negatywny",
+    "areas": "rower",
+    "limitsThinking": "nie",
+    "openAnswer": "jeju bardzo hah",
+    "replacesWork": "nie",
+    "gender": "wolę nie podawać",
     "usesAI": "tak, często"
   },
   {
@@ -1110,6 +1293,21 @@
     "usesAI": "nie"
   },
   {
+    "helpsHuman": "raczej tak",
+    "age": "15–18",
+    "futureImpact": "bardzo pozytywny",
+    "areas": [
+      "Nauka i szkoła",
+      "Codzienne życie"
+    ],
+    "limitsThinking": "tak",
+    "afraid": "nie",
+    "openAnswer": "nwm",
+    "replacesWork": "trudno powiedzieć",
+    "gender": "mężczyzna",
+    "usesAI": "tak, często"
+  },
+  {
     "helpsHuman": "zdecydowanie nie",
     "age": "15–18",
     "futureImpact": "bardzo negatywny",
@@ -1127,6 +1325,36 @@
     "usesAI": "rzadko"
   },
   {
+    "helpsHuman": "raczej tak",
+    "age": "15–18",
+    "futureImpact": "neutralny",
+    "areas": [
+      "Nauka i szkoła",
+      "Codzienne życie",
+      "Rozrywka i kreatywność"
+    ],
+    "limitsThinking": "nie",
+    "afraid": "nie",
+    "replacesWork": "częściowo",
+    "gender": "kobieta",
+    "usesAI": "tak, często"
+  },
+  {
+    "helpsHuman": "raczej nie",
+    "age": "15–18",
+    "futureImpact": "raczej pozytywny",
+    "areas": [
+      "Codzienne życie",
+      "Biznes i ekonomia"
+    ],
+    "limitsThinking": "trudno powiedzieć",
+    "afraid": "tak",
+    "openAnswer": "Lepiej ",
+    "replacesWork": "nie",
+    "gender": "mężczyzna",
+    "usesAI": "tak, często"
+  },
+  {
     "helpsHuman": "raczej nie",
     "age": "poniżej 15",
     "futureImpact": "raczej negatywny",
@@ -1139,6 +1367,33 @@
     "replacesWork": "częściowo",
     "gender": "kobieta",
     "usesAI": "nie"
+  },
+  {
+    "helpsHuman": "raczej tak",
+    "age": "15–18",
+    "futureImpact": "raczej pozytywny",
+    "areas": "Nauka i szkoła",
+    "limitsThinking": "tak",
+    "afraid": "nie",
+    "openAnswer": "napewno",
+    "replacesWork": "częściowo",
+    "gender": "kobieta",
+    "usesAI": "czasami"
+  },
+  {
+    "helpsHuman": "raczej tak",
+    "age": "15–18",
+    "futureImpact": "raczej pozytywny",
+    "areas": [
+      "Nauka i szkoła",
+      "Technologia i praca"
+    ],
+    "limitsThinking": "tak",
+    "afraid": "trochę",
+    "openAnswer": "123",
+    "replacesWork": "częściowo",
+    "gender": "mężczyzna",
+    "usesAI": "tak, często"
   },
   {
     "helpsHuman": "raczej nie",
@@ -1259,6 +1514,17 @@
     "usesAI": "tak, często"
   },
   {
+    "helpsHuman": "zdecydowanie nie",
+    "age": "poniżej 15",
+    "futureImpact": "bardzo negatywny",
+    "areas": "Medycyna",
+    "limitsThinking": "trudno powiedzieć",
+    "afraid": "trudno powiedzieć",
+    "replacesWork": "trudno powiedzieć",
+    "gender": "kobieta",
+    "usesAI": "nie"
+  },
+  {
     "helpsHuman": "raczej nie",
     "age": "15–18",
     "futureImpact": "raczej negatywny",
@@ -1309,6 +1575,33 @@
     "limitsThinking": "tak",
     "afraid": "nie",
     "openAnswer": "odciąży w pracy",
+    "replacesWork": "częściowo",
+    "gender": "kobieta",
+    "usesAI": "tak, często"
+  },
+  {
+    "helpsHuman": "nie mam zdania",
+    "age": "15–18",
+    "futureImpact": "neutralny",
+    "areas": "Nauka i szkoła",
+    "limitsThinking": "tak",
+    "afraid": "tak",
+    "openAnswer": "Ludzie stracą pracę ",
+    "replacesWork": "częściowo",
+    "gender": "kobieta",
+    "usesAI": "czasami"
+  },
+  {
+    "helpsHuman": "raczej tak",
+    "age": "15–18",
+    "futureImpact": "neutralny",
+    "areas": [
+      "Nauka i szkoła",
+      "Codzienne życie",
+      "Rozrywka i kreatywność"
+    ],
+    "limitsThinking": "tak",
+    "afraid": "tak",
     "replacesWork": "częściowo",
     "gender": "kobieta",
     "usesAI": "tak, często"

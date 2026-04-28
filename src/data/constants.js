@@ -354,8 +354,8 @@ export const TEAM_MEMBERS = {
             name: "Nikodem Trojanowski",
             role: "Lider projektu",
             tasks: [
-                "Koordynacja zespo\u0142u i kierowanie badaniami",
-                "Zbieranie odpowiedzi w terenie (Rzesz\u00f3w)",
+                "Koordynacja zespołu i kierowanie badaniami",
+                "Zbieranie odpowiedzi w terenie (Rzeszów)",
                 "Zach\u0119canie przechodni\u00f3w do wype\u0142nienia ankiety",
             ],
         },
@@ -365,7 +365,6 @@ export const TEAM_MEMBERS = {
                 "Przygotowanie ankiety",
                 "Analiza wynik\u00f3w i podsumowanie",
                 "Opracowanie strony internetowej",
-            
             ],
         },
         {
@@ -377,7 +376,7 @@ export const TEAM_MEMBERS = {
         },
         {
             name: "Aleksander Kwolek",
-            tasks: [""],
+            tasks: ["Wysyłanie linków i zachęcanie znajomych do wypełnienia ankiety."],
         },
     ],
     en: [
@@ -406,7 +405,7 @@ export const TEAM_MEMBERS = {
         },
         {
             name: "Aleksander Kwolek",
-            tasks: [""],
+            tasks: ["Shared the survey links and encouraged friends to take part."],
         },
     ],
 };
@@ -603,7 +602,7 @@ export const UI_COPY = {
             colophon: [
                 { label: "Nazwa projektu", val: "Wp\u0142yw AI na rozw\u00f3j cz\u0142owieka" },
                 { label: "Rodzaj", val: "Badawczy" },
-                { label: "Pr\u00f3ba", val: "{n} respondent\u00f3w" },
+                { label: "Ilość", val: "{n} respondent\u00f3w" },
                 { label: "Miejsce", val: "Rzesz\u00f3w, PL" },
                 { label: "Data badania", val: "7 IV 2026" },
             ],
@@ -747,7 +746,7 @@ export const UI_COPY = {
             colophon: [
                 { label: "Project name", val: "AI's impact on human development" },
                 { label: "Type", val: "Research" },
-                { label: "Sample size", val: "{n} respondents" },
+                { label: "Sample size", val: "115 respondents" },
                 { label: "Location", val: "Rzeszow, PL" },
                 { label: "Date", val: "April 7, 2026" },
             ],

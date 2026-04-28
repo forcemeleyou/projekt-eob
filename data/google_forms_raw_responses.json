@@ -2534,6 +2534,106 @@
     }
   },
   {
+    "responseId": "ACYDBNiCYTij_Cf1NID6r0PtoCacTuR3SwZdYrV7VBVBusUUoSS7AApBIqh-AXtZC0ghdM0",
+    "createTime": "2026-04-27T16:28:40.648Z",
+    "lastSubmittedTime": "2026-04-27T16:28:40.648879Z",
+    "answers": {
+      "2971e2f2": {
+        "questionId": "2971e2f2",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "raczej tak"
+            }
+          ]
+        }
+      },
+      "3c56aee9": {
+        "questionId": "3c56aee9",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "15–18"
+            }
+          ]
+        }
+      },
+      "1908f99d": {
+        "questionId": "1908f99d",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "neutralny"
+            }
+          ]
+        }
+      },
+      "3ed118ce": {
+        "questionId": "3ed118ce",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "Nauka i szkoła"
+            },
+            {
+              "value": "Codzienne życie"
+            }
+          ]
+        }
+      },
+      "7c849b27": {
+        "questionId": "7c849b27",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "trudno powiedzieć"
+            }
+          ]
+        }
+      },
+      "500cb909": {
+        "questionId": "500cb909",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "trochę"
+            }
+          ]
+        }
+      },
+      "30d6e0d8": {
+        "questionId": "30d6e0d8",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "częściowo"
+            }
+          ]
+        }
+      },
+      "141eb026": {
+        "questionId": "141eb026",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "kobieta"
+            }
+          ]
+        }
+      },
+      "5311d390": {
+        "questionId": "5311d390",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "tak, często"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
     "responseId": "ACYDBNgfnztayLm03Qt9nzkODCiTrF26RNEkmYVDO6Dm4jAqx1L1yinJEQnj0KGXqtLKHvc",
     "createTime": "2026-04-07T09:59:06.729Z",
     "lastSubmittedTime": "2026-04-07T09:59:06.729391Z",
@@ -2630,6 +2730,116 @@
           "answers": [
             {
               "value": "czasami"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "responseId": "ACYDBNgK6yh9XOyR16M4KMyROWSGHZvWomMrMNT-TyGAxQOJMfkE18V9GQ1HobnMC9_Nl1Y",
+    "createTime": "2026-04-27T18:15:10.381Z",
+    "lastSubmittedTime": "2026-04-27T18:15:10.381679Z",
+    "answers": {
+      "2971e2f2": {
+        "questionId": "2971e2f2",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "raczej tak"
+            }
+          ]
+        }
+      },
+      "3c56aee9": {
+        "questionId": "3c56aee9",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "15–18"
+            }
+          ]
+        }
+      },
+      "1908f99d": {
+        "questionId": "1908f99d",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "neutralny"
+            }
+          ]
+        }
+      },
+      "3ed118ce": {
+        "questionId": "3ed118ce",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "Nauka i szkoła"
+            },
+            {
+              "value": "Codzienne życie"
+            }
+          ]
+        }
+      },
+      "7c849b27": {
+        "questionId": "7c849b27",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "nie"
+            }
+          ]
+        }
+      },
+      "500cb909": {
+        "questionId": "500cb909",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "trochę"
+            }
+          ]
+        }
+      },
+      "251e43cd": {
+        "questionId": "251e43cd",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "Nie zmieni "
+            }
+          ]
+        }
+      },
+      "30d6e0d8": {
+        "questionId": "30d6e0d8",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "nie"
+            }
+          ]
+        }
+      },
+      "141eb026": {
+        "questionId": "141eb026",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "mężczyzna"
+            }
+          ]
+        }
+      },
+      "5311d390": {
+        "questionId": "5311d390",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "tak, często"
             }
           ]
         }
@@ -3371,6 +3581,212 @@
           "answers": [
             {
               "value": "mężczyzna"
+            }
+          ]
+        }
+      },
+      "5311d390": {
+        "questionId": "5311d390",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "tak, często"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "responseId": "ACYDBNjDcg88q4VYo4lVWguGAvAz7egbwBYGp_u8F7xrh08w2L0jKCDjpYei5duEJbkNR_o",
+    "createTime": "2026-04-27T18:43:40.006Z",
+    "lastSubmittedTime": "2026-04-27T18:43:40.006223Z",
+    "answers": {
+      "2971e2f2": {
+        "questionId": "2971e2f2",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "raczej tak"
+            }
+          ]
+        }
+      },
+      "3c56aee9": {
+        "questionId": "3c56aee9",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "15–18"
+            }
+          ]
+        }
+      },
+      "1908f99d": {
+        "questionId": "1908f99d",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "raczej negatywny"
+            }
+          ]
+        }
+      },
+      "3ed118ce": {
+        "questionId": "3ed118ce",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "Nauka i szkoła"
+            },
+            {
+              "value": "Codzienne życie"
+            },
+            {
+              "value": "Medycyna"
+            }
+          ]
+        }
+      },
+      "7c849b27": {
+        "questionId": "7c849b27",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "tak"
+            }
+          ]
+        }
+      },
+      "500cb909": {
+        "questionId": "500cb909",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "trochę"
+            }
+          ]
+        }
+      },
+      "30d6e0d8": {
+        "questionId": "30d6e0d8",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "częściowo"
+            }
+          ]
+        }
+      },
+      "141eb026": {
+        "questionId": "141eb026",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "kobieta"
+            }
+          ]
+        }
+      },
+      "5311d390": {
+        "questionId": "5311d390",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "tak, często"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "responseId": "ACYDBNgm2w7JNiGC127hWJWH-mpBqw5JSePqdH8h6SeEwwlM9fCwLSm0VbypxFSkFhK-FuA",
+    "createTime": "2026-04-27T20:41:16.459Z",
+    "lastSubmittedTime": "2026-04-27T20:41:16.459471Z",
+    "answers": {
+      "2971e2f2": {
+        "questionId": "2971e2f2",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "zdecydowanie tak"
+            }
+          ]
+        }
+      },
+      "3c56aee9": {
+        "questionId": "3c56aee9",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "poniżej 15"
+            }
+          ]
+        }
+      },
+      "1908f99d": {
+        "questionId": "1908f99d",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "bardzo pozytywny"
+            }
+          ]
+        }
+      },
+      "3ed118ce": {
+        "questionId": "3ed118ce",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "Nauka i szkoła"
+            },
+            {
+              "value": "Codzienne życie"
+            },
+            {
+              "value": "Rozrywka i kreatywność"
+            }
+          ]
+        }
+      },
+      "7c849b27": {
+        "questionId": "7c849b27",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "trudno powiedzieć"
+            }
+          ]
+        }
+      },
+      "500cb909": {
+        "questionId": "500cb909",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "trudno powiedzieć"
+            }
+          ]
+        }
+      },
+      "30d6e0d8": {
+        "questionId": "30d6e0d8",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "częściowo"
+            }
+          ]
+        }
+      },
+      "141eb026": {
+        "questionId": "141eb026",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "kobieta"
             }
           ]
         }
@@ -4310,6 +4726,106 @@
     }
   },
   {
+    "responseId": "ACYDBNhJhappREuaUI8Z5IzciM7U-tekj9AeUy-kA0i3FhXxnuDeD_Y752pcxqNbHhD7PRc",
+    "createTime": "2026-04-27T18:49:17.286Z",
+    "lastSubmittedTime": "2026-04-27T18:49:17.286767Z",
+    "answers": {
+      "2971e2f2": {
+        "questionId": "2971e2f2",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "raczej tak"
+            }
+          ]
+        }
+      },
+      "3c56aee9": {
+        "questionId": "3c56aee9",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "15–18"
+            }
+          ]
+        }
+      },
+      "1908f99d": {
+        "questionId": "1908f99d",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "neutralny"
+            }
+          ]
+        }
+      },
+      "3ed118ce": {
+        "questionId": "3ed118ce",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "Nauka i szkoła"
+            },
+            {
+              "value": "Rozrywka i kreatywność"
+            }
+          ]
+        }
+      },
+      "7c849b27": {
+        "questionId": "7c849b27",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "trudno powiedzieć"
+            }
+          ]
+        }
+      },
+      "500cb909": {
+        "questionId": "500cb909",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "trochę"
+            }
+          ]
+        }
+      },
+      "30d6e0d8": {
+        "questionId": "30d6e0d8",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "częściowo"
+            }
+          ]
+        }
+      },
+      "141eb026": {
+        "questionId": "141eb026",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "kobieta"
+            }
+          ]
+        }
+      },
+      "5311d390": {
+        "questionId": "5311d390",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "tak, często"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
     "responseId": "ACYDBNjXkUW6DQewYQgBDa9NyIo86ZCQY2d5-le4g1OeLmPmr1ZdECy2Pml__bjY2994x2c",
     "createTime": "2026-04-08T09:36:52.973Z",
     "lastSubmittedTime": "2026-04-08T09:36:52.973903Z",
@@ -4625,6 +5141,226 @@
           "answers": [
             {
               "value": "czasami"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "responseId": "ACYDBNgNKm-mpS4E7LrHISpbS2FWuvx3KuhAbg-Yf6PFqKap1CJ2-esaAG0glLOjL5MgTdg",
+    "createTime": "2026-04-27T18:57:55.781Z",
+    "lastSubmittedTime": "2026-04-27T18:57:55.781103Z",
+    "answers": {
+      "2971e2f2": {
+        "questionId": "2971e2f2",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "zdecydowanie tak"
+            }
+          ]
+        }
+      },
+      "3c56aee9": {
+        "questionId": "3c56aee9",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "15–18"
+            }
+          ]
+        }
+      },
+      "1908f99d": {
+        "questionId": "1908f99d",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "raczej pozytywny"
+            }
+          ]
+        }
+      },
+      "3ed118ce": {
+        "questionId": "3ed118ce",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "Nauka i szkoła"
+            },
+            {
+              "value": "Technologia i praca"
+            },
+            {
+              "value": "Codzienne życie"
+            }
+          ]
+        }
+      },
+      "7c849b27": {
+        "questionId": "7c849b27",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "trudno powiedzieć"
+            }
+          ]
+        }
+      },
+      "500cb909": {
+        "questionId": "500cb909",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "trochę"
+            }
+          ]
+        }
+      },
+      "251e43cd": {
+        "questionId": "251e43cd",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "Już zmieniła "
+            }
+          ]
+        }
+      },
+      "30d6e0d8": {
+        "questionId": "30d6e0d8",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "częściowo"
+            }
+          ]
+        }
+      },
+      "141eb026": {
+        "questionId": "141eb026",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "kobieta"
+            }
+          ]
+        }
+      },
+      "5311d390": {
+        "questionId": "5311d390",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "tak, często"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "responseId": "ACYDBNjZZUAe96lt51a7C918o1PhT6FjxgbLoeyP8jTCYXMwqw7gOqRyg6A0wmKKdj1Hx_Q",
+    "createTime": "2026-04-27T17:51:44.467Z",
+    "lastSubmittedTime": "2026-04-27T17:51:44.467967Z",
+    "answers": {
+      "2971e2f2": {
+        "questionId": "2971e2f2",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "raczej nie"
+            }
+          ]
+        }
+      },
+      "3c56aee9": {
+        "questionId": "3c56aee9",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "19–25"
+            }
+          ]
+        }
+      },
+      "1908f99d": {
+        "questionId": "1908f99d",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "neutralny"
+            }
+          ]
+        }
+      },
+      "3ed118ce": {
+        "questionId": "3ed118ce",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "Medycyna"
+            }
+          ]
+        }
+      },
+      "7c849b27": {
+        "questionId": "7c849b27",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "nie"
+            }
+          ]
+        }
+      },
+      "500cb909": {
+        "questionId": "500cb909",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "tak"
+            }
+          ]
+        }
+      },
+      "251e43cd": {
+        "questionId": "251e43cd",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "według ma wpływ że na to że np kupuje se kebaba potem go jem i się cieszę i ai na to nie ma wogule wpływu że se zjem kebaba"
+            }
+          ]
+        }
+      },
+      "30d6e0d8": {
+        "questionId": "30d6e0d8",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "tak"
+            }
+          ]
+        }
+      },
+      "141eb026": {
+        "questionId": "141eb026",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "kobieta"
+            }
+          ]
+        }
+      },
+      "5311d390": {
+        "questionId": "5311d390",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "tak, często"
             }
           ]
         }
@@ -6335,6 +7071,103 @@
     }
   },
   {
+    "responseId": "ACYDBNi64636PqGTz6zyg9WOvUO4ObGKd8-JqMs-cC4GR4fB7Lx3agDlCWVr9TRXlTAm_lI",
+    "createTime": "2026-04-27T18:38:10.770Z",
+    "lastSubmittedTime": "2026-04-27T18:38:10.770079Z",
+    "answers": {
+      "2971e2f2": {
+        "questionId": "2971e2f2",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "zdecydowanie tak"
+            }
+          ]
+        }
+      },
+      "3c56aee9": {
+        "questionId": "3c56aee9",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "40+"
+            }
+          ]
+        }
+      },
+      "1908f99d": {
+        "questionId": "1908f99d",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "bardzo pozytywny"
+            }
+          ]
+        }
+      },
+      "3ed118ce": {
+        "questionId": "3ed118ce",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "Technologia i praca"
+            }
+          ]
+        }
+      },
+      "7c849b27": {
+        "questionId": "7c849b27",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "nie"
+            }
+          ]
+        }
+      },
+      "500cb909": {
+        "questionId": "500cb909",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "nie"
+            }
+          ]
+        }
+      },
+      "30d6e0d8": {
+        "questionId": "30d6e0d8",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "tak"
+            }
+          ]
+        }
+      },
+      "141eb026": {
+        "questionId": "141eb026",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "mężczyzna"
+            }
+          ]
+        }
+      },
+      "5311d390": {
+        "questionId": "5311d390",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "tak, często"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
     "responseId": "ACYDBNiOafh5WL7eM8vLzhzPkH0-9DsSZBytr9YwVxv8NW0I3gxulAHiPIeB4Ei-5j_NljI",
     "createTime": "2026-04-06T14:23:14.398Z",
     "lastSubmittedTime": "2026-04-06T14:23:14.398905Z",
@@ -6428,6 +7261,332 @@
           "answers": [
             {
               "value": "kobieta"
+            }
+          ]
+        }
+      },
+      "5311d390": {
+        "questionId": "5311d390",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "tak, często"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "responseId": "ACYDBNhY0ZwJZduX5gQKedirQDsrS9lesyKCKAdQvOHtX2owTljdG8Zroof65QBD1Vbj1Y8",
+    "createTime": "2026-04-27T18:27:26.360Z",
+    "lastSubmittedTime": "2026-04-27T18:27:26.360527Z",
+    "answers": {
+      "2971e2f2": {
+        "questionId": "2971e2f2",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "raczej tak"
+            }
+          ]
+        }
+      },
+      "3c56aee9": {
+        "questionId": "3c56aee9",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "15–18"
+            }
+          ]
+        }
+      },
+      "1908f99d": {
+        "questionId": "1908f99d",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "bardzo pozytywny"
+            }
+          ]
+        }
+      },
+      "3ed118ce": {
+        "questionId": "3ed118ce",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "Nauka i szkoła"
+            }
+          ]
+        }
+      },
+      "7c849b27": {
+        "questionId": "7c849b27",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "tak"
+            }
+          ]
+        }
+      },
+      "500cb909": {
+        "questionId": "500cb909",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "nie"
+            }
+          ]
+        }
+      },
+      "251e43cd": {
+        "questionId": "251e43cd",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "Ułatwi pracę "
+            }
+          ]
+        }
+      },
+      "30d6e0d8": {
+        "questionId": "30d6e0d8",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "częściowo"
+            }
+          ]
+        }
+      },
+      "141eb026": {
+        "questionId": "141eb026",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "kobieta"
+            }
+          ]
+        }
+      },
+      "5311d390": {
+        "questionId": "5311d390",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "tak, często"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "responseId": "ACYDBNj0Uc5AKV6ENaS7a8BmySqDsWCeD0FUMR_Uw6nbYEiXmU02nrNMbFvzaqtO-xRlwzE",
+    "createTime": "2026-04-27T18:08:14.950Z",
+    "lastSubmittedTime": "2026-04-27T18:08:14.950831Z",
+    "answers": {
+      "2971e2f2": {
+        "questionId": "2971e2f2",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "raczej tak"
+            }
+          ]
+        }
+      },
+      "3c56aee9": {
+        "questionId": "3c56aee9",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "15–18"
+            }
+          ]
+        }
+      },
+      "1908f99d": {
+        "questionId": "1908f99d",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "raczej negatywny"
+            }
+          ]
+        }
+      },
+      "3ed118ce": {
+        "questionId": "3ed118ce",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "Nauka i szkoła"
+            },
+            {
+              "value": "Technologia i praca"
+            },
+            {
+              "value": "Codzienne życie"
+            }
+          ]
+        }
+      },
+      "7c849b27": {
+        "questionId": "7c849b27",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "tak"
+            }
+          ]
+        }
+      },
+      "500cb909": {
+        "questionId": "500cb909",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "tak"
+            }
+          ]
+        }
+      },
+      "30d6e0d8": {
+        "questionId": "30d6e0d8",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "tak"
+            }
+          ]
+        }
+      },
+      "141eb026": {
+        "questionId": "141eb026",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "mężczyzna"
+            }
+          ]
+        }
+      },
+      "5311d390": {
+        "questionId": "5311d390",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "tak, często"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "responseId": "ACYDBNiDIhpEoVW9XjyWM797R5hZ-PzFcTYl4xP_2BhZDHK9IgSATVMqlAPIT3_dSUZewCw",
+    "createTime": "2026-04-27T20:48:12.388Z",
+    "lastSubmittedTime": "2026-04-27T20:48:12.388911Z",
+    "answers": {
+      "2971e2f2": {
+        "questionId": "2971e2f2",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "raczej tak"
+            }
+          ]
+        }
+      },
+      "3c56aee9": {
+        "questionId": "3c56aee9",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "15–18"
+            }
+          ]
+        }
+      },
+      "1908f99d": {
+        "questionId": "1908f99d",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "raczej pozytywny"
+            }
+          ]
+        }
+      },
+      "3ed118ce": {
+        "questionId": "3ed118ce",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "Nauka i szkoła"
+            },
+            {
+              "value": "Technologia i praca"
+            },
+            {
+              "value": "Codzienne życie"
+            },
+            {
+              "value": "Biznes i ekonomia"
+            }
+          ]
+        }
+      },
+      "7c849b27": {
+        "questionId": "7c849b27",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "trudno powiedzieć"
+            }
+          ]
+        }
+      },
+      "500cb909": {
+        "questionId": "500cb909",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "trochę"
+            }
+          ]
+        }
+      },
+      "251e43cd": {
+        "questionId": "251e43cd",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "Sztuczna inteligencja zmieni życie ludzi głównie w pracy, nauce i codziennym życiu. Wiele zawodów zostanie zastąpionych przez AI, ale powstaną też nowe. Nauka będzie łatwiejsza dzięki dopasowaniu do ucznia. W życiu codziennym AI ułatwi wiele rzeczy, np. planowanie dnia. Może to być duża pomoc, ale ważne jest, żeby korzystać z niej z głową."
+            }
+          ]
+        }
+      },
+      "30d6e0d8": {
+        "questionId": "30d6e0d8",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "tak"
+            }
+          ]
+        }
+      },
+      "141eb026": {
+        "questionId": "141eb026",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "mężczyzna"
             }
           ]
         }
@@ -7369,6 +8528,112 @@
     }
   },
   {
+    "responseId": "ACYDBNi0G-uKX-PMOdpP7R73-yU4x1q9NdvVfY65gDHWWa-EUjcU4ZCigl2y58g366KbzIY",
+    "createTime": "2026-04-27T20:40:38.160Z",
+    "lastSubmittedTime": "2026-04-27T20:40:38.160767Z",
+    "answers": {
+      "2971e2f2": {
+        "questionId": "2971e2f2",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "zdecydowanie tak"
+            }
+          ]
+        }
+      },
+      "3c56aee9": {
+        "questionId": "3c56aee9",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "19–25"
+            }
+          ]
+        }
+      },
+      "1908f99d": {
+        "questionId": "1908f99d",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "neutralny"
+            }
+          ]
+        }
+      },
+      "3ed118ce": {
+        "questionId": "3ed118ce",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "Technologia i praca"
+            },
+            {
+              "value": "Codzienne życie"
+            },
+            {
+              "value": "Rozrywka i kreatywność"
+            },
+            {
+              "value": "Biznes i ekonomia"
+            }
+          ]
+        }
+      },
+      "7c849b27": {
+        "questionId": "7c849b27",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "nie"
+            }
+          ]
+        }
+      },
+      "500cb909": {
+        "questionId": "500cb909",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "nie"
+            }
+          ]
+        }
+      },
+      "30d6e0d8": {
+        "questionId": "30d6e0d8",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "częściowo"
+            }
+          ]
+        }
+      },
+      "141eb026": {
+        "questionId": "141eb026",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "kobieta"
+            }
+          ]
+        }
+      },
+      "5311d390": {
+        "questionId": "5311d390",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "tak, często"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
     "responseId": "ACYDBNj4YZXvX60z_QdJ3KB1NUfLZRsba6r2N8RJTvritkTOAU7d5dJwzlkJkqgELRo6qD0",
     "createTime": "2026-04-07T13:07:36.170Z",
     "lastSubmittedTime": "2026-04-07T13:07:36.170979Z",
@@ -7681,6 +8946,103 @@
           "answers": [
             {
               "value": "kobieta"
+            }
+          ]
+        }
+      },
+      "5311d390": {
+        "questionId": "5311d390",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "tak, często"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "responseId": "ACYDBNiYSkIRjiFhfA5eeuDtnuKpfkRYZRQLb7rV-3rsSGnviXCLpa3lfBPzT2-yfpn2lc8",
+    "createTime": "2026-04-27T18:06:34.359Z",
+    "lastSubmittedTime": "2026-04-27T18:06:34.359871Z",
+    "answers": {
+      "2971e2f2": {
+        "questionId": "2971e2f2",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "zdecydowanie nie"
+            }
+          ]
+        }
+      },
+      "3c56aee9": {
+        "questionId": "3c56aee9",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "poniżej 15"
+            }
+          ]
+        }
+      },
+      "1908f99d": {
+        "questionId": "1908f99d",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "bardzo negatywny"
+            }
+          ]
+        }
+      },
+      "3ed118ce": {
+        "questionId": "3ed118ce",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "rower"
+            }
+          ]
+        }
+      },
+      "7c849b27": {
+        "questionId": "7c849b27",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "nie"
+            }
+          ]
+        }
+      },
+      "251e43cd": {
+        "questionId": "251e43cd",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "jeju bardzo hah"
+            }
+          ]
+        }
+      },
+      "30d6e0d8": {
+        "questionId": "30d6e0d8",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "nie"
+            }
+          ]
+        }
+      },
+      "141eb026": {
+        "questionId": "141eb026",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "wolę nie podawać"
             }
           ]
         }
@@ -8324,6 +9686,116 @@
     }
   },
   {
+    "responseId": "ACYDBNhm9F0clTwQ272viX0drBvwAbvXyl8yyctcjzaLBLrzWY3P1RuIfAZE5zQ3yNAXvrE",
+    "createTime": "2026-04-27T16:24:48.314Z",
+    "lastSubmittedTime": "2026-04-27T16:24:48.314607Z",
+    "answers": {
+      "2971e2f2": {
+        "questionId": "2971e2f2",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "raczej tak"
+            }
+          ]
+        }
+      },
+      "3c56aee9": {
+        "questionId": "3c56aee9",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "15–18"
+            }
+          ]
+        }
+      },
+      "1908f99d": {
+        "questionId": "1908f99d",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "bardzo pozytywny"
+            }
+          ]
+        }
+      },
+      "3ed118ce": {
+        "questionId": "3ed118ce",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "Nauka i szkoła"
+            },
+            {
+              "value": "Codzienne życie"
+            }
+          ]
+        }
+      },
+      "7c849b27": {
+        "questionId": "7c849b27",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "tak"
+            }
+          ]
+        }
+      },
+      "500cb909": {
+        "questionId": "500cb909",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "nie"
+            }
+          ]
+        }
+      },
+      "251e43cd": {
+        "questionId": "251e43cd",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "nwm"
+            }
+          ]
+        }
+      },
+      "30d6e0d8": {
+        "questionId": "30d6e0d8",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "trudno powiedzieć"
+            }
+          ]
+        }
+      },
+      "141eb026": {
+        "questionId": "141eb026",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "mężczyzna"
+            }
+          ]
+        }
+      },
+      "5311d390": {
+        "questionId": "5311d390",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "tak, często"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
     "responseId": "ACYDBNjQphCcIolA24oNTQHJekCDrLKd-Nkcbm9Ec7b_sFm03PUzKTsjpgb2AHDBylC3MlU",
     "createTime": "2026-04-07T09:11:56.261Z",
     "lastSubmittedTime": "2026-04-07T09:11:56.261071Z",
@@ -8433,6 +9905,219 @@
     }
   },
   {
+    "responseId": "ACYDBNis-xVf_XDmwuVRMQoHSEXXEsP1Rfvh_6e1uw3D-d3jJgcL0-82mbvqP3gNj0IdCo4",
+    "createTime": "2026-04-27T18:31:16.531Z",
+    "lastSubmittedTime": "2026-04-27T18:31:16.531791Z",
+    "answers": {
+      "2971e2f2": {
+        "questionId": "2971e2f2",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "raczej tak"
+            }
+          ]
+        }
+      },
+      "3c56aee9": {
+        "questionId": "3c56aee9",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "15–18"
+            }
+          ]
+        }
+      },
+      "1908f99d": {
+        "questionId": "1908f99d",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "neutralny"
+            }
+          ]
+        }
+      },
+      "3ed118ce": {
+        "questionId": "3ed118ce",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "Nauka i szkoła"
+            },
+            {
+              "value": "Codzienne życie"
+            },
+            {
+              "value": "Rozrywka i kreatywność"
+            }
+          ]
+        }
+      },
+      "7c849b27": {
+        "questionId": "7c849b27",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "nie"
+            }
+          ]
+        }
+      },
+      "500cb909": {
+        "questionId": "500cb909",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "nie"
+            }
+          ]
+        }
+      },
+      "30d6e0d8": {
+        "questionId": "30d6e0d8",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "częściowo"
+            }
+          ]
+        }
+      },
+      "141eb026": {
+        "questionId": "141eb026",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "kobieta"
+            }
+          ]
+        }
+      },
+      "5311d390": {
+        "questionId": "5311d390",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "tak, często"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "responseId": "ACYDBNgRoI-xOsH-P5MsLFOvzR0zSJAlCxAUAVJkCaAFkEdv_v1wC2TEsAzvn5nIUqDiqL0",
+    "createTime": "2026-04-27T21:15:24.623Z",
+    "lastSubmittedTime": "2026-04-27T21:15:24.623167Z",
+    "answers": {
+      "2971e2f2": {
+        "questionId": "2971e2f2",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "raczej nie"
+            }
+          ]
+        }
+      },
+      "3c56aee9": {
+        "questionId": "3c56aee9",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "15–18"
+            }
+          ]
+        }
+      },
+      "1908f99d": {
+        "questionId": "1908f99d",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "raczej pozytywny"
+            }
+          ]
+        }
+      },
+      "3ed118ce": {
+        "questionId": "3ed118ce",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "Codzienne życie"
+            },
+            {
+              "value": "Biznes i ekonomia"
+            }
+          ]
+        }
+      },
+      "7c849b27": {
+        "questionId": "7c849b27",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "trudno powiedzieć"
+            }
+          ]
+        }
+      },
+      "500cb909": {
+        "questionId": "500cb909",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "tak"
+            }
+          ]
+        }
+      },
+      "251e43cd": {
+        "questionId": "251e43cd",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "Lepiej "
+            }
+          ]
+        }
+      },
+      "30d6e0d8": {
+        "questionId": "30d6e0d8",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "nie"
+            }
+          ]
+        }
+      },
+      "141eb026": {
+        "questionId": "141eb026",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "mężczyzna"
+            }
+          ]
+        }
+      },
+      "5311d390": {
+        "questionId": "5311d390",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "tak, często"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
     "responseId": "ACYDBNh8sIHhxBwpNaMSy_8aTg2NC9jPjqiDVLkwTgTy23Cf_DnmfJoRKmk0JjpqooeDkKc",
     "createTime": "2026-04-07T12:52:02.838Z",
     "lastSubmittedTime": "2026-04-07T12:52:02.838913Z",
@@ -8526,6 +10211,223 @@
           "answers": [
             {
               "value": "nie"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "responseId": "ACYDBNhspUb-mPJkLWCir9BZvYjBU4r4wWU9JIcgNfK6DnpoTBURiLWf6_21oS2Jxg0hPHs",
+    "createTime": "2026-04-27T18:37:06.344Z",
+    "lastSubmittedTime": "2026-04-27T18:37:06.344799Z",
+    "answers": {
+      "2971e2f2": {
+        "questionId": "2971e2f2",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "raczej tak"
+            }
+          ]
+        }
+      },
+      "3c56aee9": {
+        "questionId": "3c56aee9",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "15–18"
+            }
+          ]
+        }
+      },
+      "1908f99d": {
+        "questionId": "1908f99d",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "raczej pozytywny"
+            }
+          ]
+        }
+      },
+      "3ed118ce": {
+        "questionId": "3ed118ce",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "Nauka i szkoła"
+            }
+          ]
+        }
+      },
+      "7c849b27": {
+        "questionId": "7c849b27",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "tak"
+            }
+          ]
+        }
+      },
+      "500cb909": {
+        "questionId": "500cb909",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "nie"
+            }
+          ]
+        }
+      },
+      "251e43cd": {
+        "questionId": "251e43cd",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "napewno"
+            }
+          ]
+        }
+      },
+      "30d6e0d8": {
+        "questionId": "30d6e0d8",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "częściowo"
+            }
+          ]
+        }
+      },
+      "141eb026": {
+        "questionId": "141eb026",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "kobieta"
+            }
+          ]
+        }
+      },
+      "5311d390": {
+        "questionId": "5311d390",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "czasami"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "responseId": "ACYDBNilkakTIJHZy8IIum-__HxFa5JVtS8N6IOUzugGm8PPLJovSbCowhJWfnts4yjHOBY",
+    "createTime": "2026-04-28T05:32:54.036Z",
+    "lastSubmittedTime": "2026-04-28T05:32:54.036687Z",
+    "answers": {
+      "2971e2f2": {
+        "questionId": "2971e2f2",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "raczej tak"
+            }
+          ]
+        }
+      },
+      "3c56aee9": {
+        "questionId": "3c56aee9",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "15–18"
+            }
+          ]
+        }
+      },
+      "1908f99d": {
+        "questionId": "1908f99d",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "raczej pozytywny"
+            }
+          ]
+        }
+      },
+      "3ed118ce": {
+        "questionId": "3ed118ce",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "Nauka i szkoła"
+            },
+            {
+              "value": "Technologia i praca"
+            }
+          ]
+        }
+      },
+      "7c849b27": {
+        "questionId": "7c849b27",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "tak"
+            }
+          ]
+        }
+      },
+      "500cb909": {
+        "questionId": "500cb909",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "trochę"
+            }
+          ]
+        }
+      },
+      "251e43cd": {
+        "questionId": "251e43cd",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "123"
+            }
+          ]
+        }
+      },
+      "30d6e0d8": {
+        "questionId": "30d6e0d8",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "częściowo"
+            }
+          ]
+        }
+      },
+      "141eb026": {
+        "questionId": "141eb026",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "mężczyzna"
+            }
+          ]
+        }
+      },
+      "5311d390": {
+        "questionId": "5311d390",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "tak, często"
             }
           ]
         }
@@ -9397,6 +11299,103 @@
     }
   },
   {
+    "responseId": "ACYDBNjOkEY0sH2fSZdIVpf4_5MEqX8NKPocFm2M19_uB_-H3nT_e1sSSUrwhu6enoVaUSc",
+    "createTime": "2026-04-27T20:07:58.290Z",
+    "lastSubmittedTime": "2026-04-27T20:07:58.290879Z",
+    "answers": {
+      "2971e2f2": {
+        "questionId": "2971e2f2",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "zdecydowanie nie"
+            }
+          ]
+        }
+      },
+      "3c56aee9": {
+        "questionId": "3c56aee9",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "poniżej 15"
+            }
+          ]
+        }
+      },
+      "1908f99d": {
+        "questionId": "1908f99d",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "bardzo negatywny"
+            }
+          ]
+        }
+      },
+      "3ed118ce": {
+        "questionId": "3ed118ce",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "Medycyna"
+            }
+          ]
+        }
+      },
+      "7c849b27": {
+        "questionId": "7c849b27",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "trudno powiedzieć"
+            }
+          ]
+        }
+      },
+      "500cb909": {
+        "questionId": "500cb909",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "trudno powiedzieć"
+            }
+          ]
+        }
+      },
+      "30d6e0d8": {
+        "questionId": "30d6e0d8",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "trudno powiedzieć"
+            }
+          ]
+        }
+      },
+      "141eb026": {
+        "questionId": "141eb026",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "kobieta"
+            }
+          ]
+        }
+      },
+      "5311d390": {
+        "questionId": "5311d390",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "nie"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
     "responseId": "ACYDBNgxghqDyHzgxEIRkJe9gyOz4M1ewqXtt7KinSR8m18mnLkHQrqFsoFJgmGeLZlGjKg",
     "createTime": "2026-04-08T11:07:17.942Z",
     "lastSubmittedTime": "2026-04-08T11:07:17.942895Z",
@@ -9797,6 +11796,216 @@
           "answers": [
             {
               "value": "odciąży w pracy"
+            }
+          ]
+        }
+      },
+      "30d6e0d8": {
+        "questionId": "30d6e0d8",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "częściowo"
+            }
+          ]
+        }
+      },
+      "141eb026": {
+        "questionId": "141eb026",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "kobieta"
+            }
+          ]
+        }
+      },
+      "5311d390": {
+        "questionId": "5311d390",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "tak, często"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "responseId": "ACYDBNgg6TYtc46dymUIWE44UCGzzZGxEXpy9tS2tVkAppFOPibxpwuJ-tEqYmmDRouwx6U",
+    "createTime": "2026-04-27T16:27:06.554Z",
+    "lastSubmittedTime": "2026-04-27T16:27:06.554223Z",
+    "answers": {
+      "2971e2f2": {
+        "questionId": "2971e2f2",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "nie mam zdania"
+            }
+          ]
+        }
+      },
+      "3c56aee9": {
+        "questionId": "3c56aee9",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "15–18"
+            }
+          ]
+        }
+      },
+      "1908f99d": {
+        "questionId": "1908f99d",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "neutralny"
+            }
+          ]
+        }
+      },
+      "3ed118ce": {
+        "questionId": "3ed118ce",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "Nauka i szkoła"
+            }
+          ]
+        }
+      },
+      "7c849b27": {
+        "questionId": "7c849b27",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "tak"
+            }
+          ]
+        }
+      },
+      "500cb909": {
+        "questionId": "500cb909",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "tak"
+            }
+          ]
+        }
+      },
+      "251e43cd": {
+        "questionId": "251e43cd",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "Ludzie stracą pracę "
+            }
+          ]
+        }
+      },
+      "30d6e0d8": {
+        "questionId": "30d6e0d8",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "częściowo"
+            }
+          ]
+        }
+      },
+      "141eb026": {
+        "questionId": "141eb026",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "kobieta"
+            }
+          ]
+        }
+      },
+      "5311d390": {
+        "questionId": "5311d390",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "czasami"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "responseId": "ACYDBNjqHERI8lmnUQwP5B3Q0MZtU0VlfgJxIyE36O3Z5uSBsB73xgB6vKzoGh-sdmDFXxY",
+    "createTime": "2026-04-27T18:12:20.228Z",
+    "lastSubmittedTime": "2026-04-27T18:12:20.228207Z",
+    "answers": {
+      "2971e2f2": {
+        "questionId": "2971e2f2",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "raczej tak"
+            }
+          ]
+        }
+      },
+      "3c56aee9": {
+        "questionId": "3c56aee9",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "15–18"
+            }
+          ]
+        }
+      },
+      "1908f99d": {
+        "questionId": "1908f99d",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "neutralny"
+            }
+          ]
+        }
+      },
+      "3ed118ce": {
+        "questionId": "3ed118ce",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "Nauka i szkoła"
+            },
+            {
+              "value": "Codzienne życie"
+            },
+            {
+              "value": "Rozrywka i kreatywność"
+            }
+          ]
+        }
+      },
+      "7c849b27": {
+        "questionId": "7c849b27",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "tak"
+            }
+          ]
+        }
+      },
+      "500cb909": {
+        "questionId": "500cb909",
+        "textAnswers": {
+          "answers": [
+            {
+              "value": "tak"
             }
           ]
         }
