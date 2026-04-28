@@ -354,8 +354,9 @@ export const TEAM_MEMBERS = {
             name: "Nikodem Trojanowski",
             role: "Lider projektu",
             tasks: [
+                "Koordynacja zespo\u0142u i kierowanie badaniami",
                 "Zbieranie odpowiedzi w terenie (Rzesz\u00f3w)",
-                "Zach\u0119canie przechodni\u00f3w do wype\u0142nienia ankiety na tabletach",
+                "Zach\u0119canie przechodni\u00f3w do wype\u0142nienia ankiety",
             ],
         },
         {
@@ -364,13 +365,14 @@ export const TEAM_MEMBERS = {
                 "Przygotowanie ankiety",
                 "Analiza wynik\u00f3w i podsumowanie",
                 "Opracowanie strony internetowej",
+            
             ],
         },
         {
-            name: "Sara Duel Czubska",
+            name: "Sara Duell-Czubska",
             tasks: [
                 "Zbieranie odpowiedzi w terenie (Rzesz\u00f3w)",
-                "Zach\u0119canie przechodni\u00f3w do wype\u0142nienia ankiety na tabletach",
+                "Zach\u0119canie przechodni\u00f3w do wype\u0142nienia ankiety",
             ],
         },
         {
@@ -383,7 +385,7 @@ export const TEAM_MEMBERS = {
             name: "Nikodem Trojanowski",
             role: "Project Lead",
             tasks: [
-                "Directed the research in Rzeszow",
+                "Coordinating the team and leading the research in Rzeszow",
                 "Collected first-hand feedback from the public using iPads",
             ],
         },
