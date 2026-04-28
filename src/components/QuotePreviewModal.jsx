@@ -38,22 +38,6 @@ export default function QuotePreviewModal({
     return (
         <div className="quote-modal__backdrop" onClick={onClose}>
             <div className="quote-modal__shell" onClick={(e) => e.stopPropagation()}>
-                <button
-                    type="button"
-                    className="quote-modal__arrow quote-modal__arrow--prev"
-                    onClick={onPrevious}
-                    aria-label={quoteSectionCopy.previousQuote}
-                >
-                    &larr;
-                </button>
-                <button
-                    type="button"
-                    className="quote-modal__arrow quote-modal__arrow--next"
-                    onClick={onNext}
-                    aria-label={quoteSectionCopy.nextQuote}
-                >
-                    &rarr;
-                </button>
                 <div className="quote-modal__stack">
                     <StarBorder
                         as="article"
@@ -72,8 +56,26 @@ export default function QuotePreviewModal({
                             <div className="quote-modal__meta">- {quote.gender}, {quote.age} {quoteSectionCopy.yearsSuffix}</div>
                         </div>
                     </StarBorder>
-                    <div className="quote-modal__count">
-                        {String((currentIndex ?? 0) + 1).padStart(2, "0")} / {String(totalQuotes ?? 0).padStart(2, "0")}
+                    <div className="quote-modal__footer">
+                        <button
+                            type="button"
+                            className="quote-modal__arrow quote-modal__arrow--prev"
+                            onClick={onPrevious}
+                            aria-label={quoteSectionCopy.previousQuote}
+                        >
+                            &larr;
+                        </button>
+                        <div className="quote-modal__count">
+                            {String((currentIndex ?? 0) + 1).padStart(2, "0")} / {String(totalQuotes ?? 0).padStart(2, "0")}
+                        </div>
+                        <button
+                            type="button"
+                            className="quote-modal__arrow quote-modal__arrow--next"
+                            onClick={onNext}
+                            aria-label={quoteSectionCopy.nextQuote}
+                        >
+                            &rarr;
+                        </button>
                     </div>
                 </div>
             </div>
